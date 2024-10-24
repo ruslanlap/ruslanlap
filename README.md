@@ -77,8 +77,9 @@ const ruslan = {
 
 ## 🌐 Connect with me
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/ruslan-lapshyn/)
-- 📫 How to reach me: TG [https://t.me/ruslan_ls]
+- 💼 [LinkedIn](https://www.linkedin.com/in/ruslan-lapiniak-3b912b201?originalSubdomain=ua)
+- 📫 How to reach me [Telegram](https://t.me/ruslan_ls)
+
 
 🛠 Tech Stack
 
