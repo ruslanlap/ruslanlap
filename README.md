@@ -81,10 +81,8 @@ const ruslan = {
 - 📫 How to reach me: TG [https://t.me/ruslan_ls]
 
 🛠 Tech Stack
-[Previous Frontend, Backend, and Database sections remain the same]
+
 DevOps & Cloud
-
-
 
 ## 🚀 Current Focus
 
@@ -160,15 +158,12 @@ Projects:
     status: Active Development
 ```
 
-[Previous GitHub Stats and Trophies sections remain the same]
-
 ## 🌱 Current Learning Path
 - 📚 Advanced Kubernetes Patterns
 - 🔒 Cloud Security & DevSecOps
 - 🤖 Infrastructure Automation
 - 🎯 Site Reliability Engineering (SRE)
 
-[Previous Contact and Current Focus sections remain the same]
 
 ## 🔧 DevOps Toolbox
 ```bash
