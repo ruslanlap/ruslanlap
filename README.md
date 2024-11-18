@@ -12,7 +12,7 @@ const ruslan = {
     code: ["JavaScript", "Python", "HTML", "CSS", "Shell"],
     technologies: {
         frontEnd: {
-            js: ["React", "Vue.js"],
+            js: ["React", "React.js"],
             css: ["Bootstrap", "GULP", "SASS"],
         },
         backEnd: {
