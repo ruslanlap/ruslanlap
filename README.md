@@ -133,7 +133,7 @@ graph TD
 
 ## 🌱 Current Learning Path
 
-- 📚 **Advanced Kubernetes Patterns**
+- 📚 **React, TypeScript, Node.js**
 - 🔒 **Cloud Security & DevSecOps**
 - 🤖 **Infrastructure Automation**
 - 🎯 **Site Reliability Engineering (SRE)**
