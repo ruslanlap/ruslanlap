@@ -72,12 +72,6 @@ const ruslan = {
 
 ---
 
-<div align="center">
-👀 Profile Views
-
-
---
-
 ## 🌐 Connect with Me
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/ruslan-lapiniak-3b912b201?originalSubdomain=ua)
@@ -87,9 +81,9 @@ const ruslan = {
 
 ## 🚀 Current Focus
 
-- 🔭 **Current Project**: [....]
-- 🌱 **Learning**: [AI & DevSecOps]
-- 👯 **Looking to Collaborate**: Open-source projects, Startups, and DevOps automation.
+- 🔭 **Current Project**: [Clear Task TODO Notion integration](https://luminous-creponne-85984c.netlify.app/)
+- 🌱 **Learning**: AI & DevSecOps
+- 👯 **Looking to Collaborate**: Open-source projects, Startups, and DevOps automation. #VITE, #PYTHON, #PYTHONBOT, index.js, index.ts, App.tsx ... etc
 
 ---
 
