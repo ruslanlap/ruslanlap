@@ -72,8 +72,9 @@ const ruslan = {
 
 ---
 
-<img src="https://github.com/ruslanlap/ruslanlap/blob/output/github-contribution-grid-snake.svg" alt="snake" />
-</div>
+<div align="center">
+👀 Profile Views
+
 
 --
 
