@@ -144,6 +144,7 @@ graph TD
 
 ```bash
 # My favorite commands
+$ npm run...
 $ kubectl get pods
 $ docker-compose up
 $ ansible-playbook deploy.yml
