@@ -72,6 +72,11 @@ const ruslan = {
 
 ---
 
+<img src="https://github.com/ruslanlap/ruslanlap/blob/output/github-contribution-grid-snake.svg" alt="snake" />
+</div>
+
+--
+
 ## 🌐 Connect with Me
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/ruslan-lapiniak-3b912b201?originalSubdomain=ua)
