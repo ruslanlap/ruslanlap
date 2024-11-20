@@ -29,7 +29,7 @@ const ruslan = {
             IaC: ["Terraform", "Ansible"],
             monitoring: ["Prometheus", "Grafana", "ELK Stack"]
         },
-        tools: ["Git", "Docker", "Linux", "Bash", "VS Code", "Postman"]
+        tools: ["Git", "Docker", "Linux", "Bash", "VS Code"]
     }
 };
 ```
