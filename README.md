@@ -118,19 +118,6 @@ Projects:
 
 ---
 
-## 📈 DevOps Workflow
-
-```mermaid
-graph TD
-    A[Code] -->|CI/CD Pipeline| B(Build)
-    B --> C[Test]
-    C --> D[Deploy]
-    D --> E[Monitor]
-    E --> A[Feedback Loop]
-```
-
----
-
 ## 🌱 Current Learning Path
 
 - 📚 **React, TypeScript, Node.js**
