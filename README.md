@@ -12,7 +12,7 @@
 const ruslan = {
     role: "Full Stack Developer & DevOps Engineer",
     location: "Ukraine",
-    code: ["JavaScript", "Python", "HTML", "CSS", "Shell"],
+    code: ["JavaScript", "C#", "Python", "HTML", "CSS", "Shell"],
     technologies: {
         frontEnd: {
             js: ["React", "React.js"],
