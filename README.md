@@ -11,7 +11,7 @@ https://windowsforum.com/threads/powertoys-run-gets-powerful-with-new-plugins-sp
 ![Total Downloads](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ruslanlap/ruslanlap/master/stats/total_downloads_shield.json) ![Monthly Growth](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ruslanlap/ruslanlap/master/stats/growth_shield.json) ![GitHub Downloads](https://img.shields.io/github/downloads/ruslanlap/total/total?style=for-the-badge&logo=github)
 
 <!-- TOTAL_DL_START -->
-**Total downloads across my plugins:** **11 581** 🚀
+**Total downloads across my plugins:** **11 587** 🚀
 
 **Monthly Growth:** N/A 📈 | **Weekly Avg:** N/A downloads
 
@@ -36,7 +36,7 @@ https://windowsforum.com/threads/powertoys-run-gets-powerful-with-new-plugins-sp
 - **Plugin Performance**: Individual plugin download trends
 
 ### 🎯 Key Metrics
-- **Total Downloads**: 11,581 across all plugins
+- **Total Downloads**: 11,587 across all plugins
 - **Active Plugins**: 5 production-ready plugins
 - **Average per Plugin**: ~2,316 downloads
 - **Most Popular**: VideoDownloader (33% of total downloads)
@@ -50,7 +50,6 @@ Click on any plugin name to view its repository and release notes:
 - [🍅 Pomodoro](https://github.com/ruslanlap/PowerToysRun-Pomodoro) - Latest: v1.0.0
 
 </details>
-
 <!-- TOTAL_DL_END -->
 
 ---

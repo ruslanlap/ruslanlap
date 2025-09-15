@@ -2,9 +2,14 @@
   "owner": "ruslanlap",
   "filter": "^PowerToysRun-|^Community\\.PowerToys\\.Run|^pagespeed-insights-mcp|^Context7|^ClipboardComposer|^VideoDownloader",
   "include_prereleases": true,
-  "generated_at": "2025-09-15T13:02:47Z",
-  "grand_total": 11581,
-  "grand_total_human": "11 581",
+  "generated_at": "2025-09-15T13:36:38Z",
+  "grand_total": 11587,
+  "grand_total_human": "11 587",
+  "growth": {
+    "monthly_growth": "N/A",
+    "weekly_avg": "N/A",
+    "growth_pct": 0
+  },
   "repos": [
     {
       "repo": "PowerToysRun-VideoDownloader",
@@ -245,7 +250,7 @@
     {
       "repo": "PowerToysRun-SpeedTest",
       "html_url": "https://github.com/ruslanlap/PowerToysRun-SpeedTest",
-      "downloads": 3489,
+      "downloads": 3494,
       "releases": [
         {
           "tag": "v1.0.7",
@@ -261,7 +266,7 @@
             },
             {
               "name": "SpeedTest-1.0.7-ARM64.zip",
-              "download_count": 13,
+              "download_count": 15,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-SpeedTest/releases/download/v1.0.7/SpeedTest-1.0.7-ARM64.zip"
             },
             {
@@ -271,7 +276,7 @@
             },
             {
               "name": "SpeedTest-1.0.7-x64.zip",
-              "download_count": 158,
+              "download_count": 161,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-SpeedTest/releases/download/v1.0.7/SpeedTest-1.0.7-x64.zip"
             },
             {
@@ -280,7 +285,7 @@
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-SpeedTest/releases/download/v1.0.7/SpeedTest-1.0.7-x64.zip.sha256"
             }
           ],
-          "release_total": 178
+          "release_total": 183
         },
         {
           "tag": "v1.0.6",
@@ -664,7 +669,7 @@
     {
       "repo": "PowerToysRun-Weather",
       "html_url": "https://github.com/ruslanlap/PowerToysRun-Weather",
-      "downloads": 1064,
+      "downloads": 1065,
       "releases": [
         {
           "tag": "v0.90.1",
@@ -685,7 +690,7 @@
             },
             {
               "name": "Weather-0.90.1-x64.zip",
-              "download_count": 289,
+              "download_count": 290,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Weather/releases/download/v0.90.1/Weather-0.90.1-x64.zip"
             },
             {
@@ -699,7 +704,7 @@
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Weather/releases/download/v0.90.1/Weather-x64.zip"
             }
           ],
-          "release_total": 429
+          "release_total": 430
         },
         {
           "tag": "v1.0.1",
