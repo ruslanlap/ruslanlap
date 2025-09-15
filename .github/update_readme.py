@@ -30,9 +30,41 @@ def update_readme_downloads(readme_path, stats_json_path):
         return False
 
     # Update the download count in the README
-    pattern = r'(<!-- TOTAL_DL_START -->\n\*\*Total downloads across my plugins:\*\* \*\*).*?(\*\* 🚀\n<!-- TOTAL_DL_END -->)'
-    replacement = f'\\1{downloads}\\2'
-    updated_content = re.sub(pattern, replacement, content)
+    # First check if the pattern exists
+    if '<!-- TOTAL_DL_START -->' in content and '<!-- TOTAL_DL_END -->' in content:
+        pattern = r'(<!-- TOTAL_DL_START -->\n\*\*Total downloads across my plugins:\*\* \*\*).*?(\*\* 🚀\n<!-- TOTAL_DL_END -->)'
+        replacement = f'\\1{downloads}\\2'
+        updated_content = re.sub(pattern, replacement, content)
+    else:
+        # If the pattern doesn't exist or is broken, recreate the entire section
+        start_marker = '<!-- TOTAL_DL_START -->'
+        end_marker = '<!-- TOTAL_DL_END -->'
+        new_section = f'{start_marker}\n**Total downloads across my plugins:** **{downloads}** 🚀\n{end_marker}'
+        
+        # Try to find the section between markers even if it's malformed
+        start_pos = content.find(start_marker)
+        end_pos = content.find(end_marker)
+        
+        if start_pos >= 0 and end_pos >= 0 and end_pos > start_pos:
+            # Replace the entire section
+            updated_content = content[:start_pos] + new_section + content[end_pos + len(end_marker):]
+        elif '## 📊 Downloads Summary' in content:
+            # Find the downloads summary section and add after it
+            summary_pos = content.find('## 📊 Downloads Summary')
+            badge_line = '![Total Downloads](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ruslanlap/ruslanlap/master/stats/total_downloads_shield.json)'
+            badge_pos = content.find(badge_line, summary_pos)
+            
+            if badge_pos >= 0:
+                insert_pos = badge_pos + len(badge_line) + 2  # +2 for newlines
+                updated_content = content[:insert_pos] + '\n' + new_section + '\n' + content[insert_pos:]
+            else:
+                # Can't find the right place, just append to the end
+                updated_content = content
+                print("Could not find the right place to insert download stats", file=sys.stderr)
+        else:
+            # Can't find any markers, don't update
+            updated_content = content
+            print("Could not find download stats markers in README", file=sys.stderr)
 
     # Write the updated content back to the README
     if updated_content != content:
