@@ -6,11 +6,25 @@
 ### 📖 about my plugin's 
 https://windowsforum.com/threads/powertoys-run-gets-powerful-with-new-plugins-speedtest-definition-and-videodownloader.369571/
 
-## 📊 Downloads Summary
-![Total Downloads](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ruslanlap/ruslanlap/master/stats/total_downloads_shield.json)
+## 📊 Downloads Summary ✨🚀✨
+
+![Total Downloads](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ruslanlap/ruslanlap/master/stats/total_downloads_shield.json) ![GitHub Downloads](https://img.shields.io/github/downloads/ruslanlap/total/total?style=for-the-badge&logo=github)
 
 <!-- TOTAL_DL_START -->
 **Total downloads across my plugins:** **11 581** 🚀
+
+### 🏆 Top Performing Plugins
+
+| Plugin | Downloads | Description |
+|--------|-----------|-------------|
+| 🎥 **VideoDownloader** | 3,848 | Download videos from YouTube and more |
+| ⚡ **SpeedTest** | 3,489 | Internet speed testing |
+| 📚 **Definition** | 1,416 | Dictionary definitions |
+| 🌤️ **Weather** | 1,064 | Weather forecasts |
+| 🍅 **Pomodoro** | 1,017 | Productivity timer |
+
+*📈 Data updated daily via automated workflows*
+
 <!-- TOTAL_DL_END -->
 
 ---
