@@ -8,22 +8,48 @@ https://windowsforum.com/threads/powertoys-run-gets-powerful-with-new-plugins-sp
 
 ## 📊 Downloads Summary ✨🚀✨
 
-![Total Downloads](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ruslanlap/ruslanlap/master/stats/total_downloads_shield.json) ![GitHub Downloads](https://img.shields.io/github/downloads/ruslanlap/total/total?style=for-the-badge&logo=github)
+![Total Downloads](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ruslanlap/ruslanlap/master/stats/total_downloads_shield.json) ![Monthly Growth](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ruslanlap/ruslanlap/master/stats/growth_shield.json) ![GitHub Downloads](https://img.shields.io/github/downloads/ruslanlap/total/total?style=for-the-badge&logo=github)
 
 <!-- TOTAL_DL_START -->
 **Total downloads across my plugins:** **11 581** 🚀
 
+**Monthly Growth:** N/A 📈 | **Weekly Avg:** N/A downloads
+
 ### 🏆 Top Performing Plugins
 
-| Plugin | Downloads | Description |
-|--------|-----------|-------------|
-| 🎥 **VideoDownloader** | 3,848 | Download videos from YouTube and more |
-| ⚡ **SpeedTest** | 3,489 | Internet speed testing |
-| 📚 **Definition** | 1,416 | Dictionary definitions |
-| 🌤️ **Weather** | 1,064 | Weather forecasts |
-| 🍅 **Pomodoro** | 1,017 | Productivity timer |
+| 🏅 Rank | Plugin | Downloads | Growth | Description |
+|---------|--------|-----------|--------|-------------|
+| 🥇 | 🎥 **VideoDownloader** | 3,848 | 📈 | Download videos from YouTube and more |
+| 🥈 | ⚡ **SpeedTest** | 3,489 | 📈 | Internet speed testing |
+| 🥉 | 📚 **Definition** | 1,416 | 📈 | Dictionary definitions |
+| 4️⃣ | 🌤️ **Weather** | 1,064 | 📈 | Weather forecasts |
+| 5️⃣ | 🍅 **Pomodoro** | 1,017 | 📈 | Productivity timer |
 
-*📈 Data updated daily via automated workflows*
+*📊 Smart analytics updated weekly via automated workflows • Last updated: Recently*
+
+<details>
+<summary>📈 View Detailed Analytics & Trends</summary>
+
+### 📊 Download Trends
+- **Historical Data**: [View complete download history](https://github.com/ruslanlap/ruslanlap/tree/master/stats)
+- **Growth Insights**: Monthly and weekly download patterns
+- **Plugin Performance**: Individual plugin download trends
+
+### 🎯 Key Metrics
+- **Total Downloads**: 11,581 across all plugins
+- **Active Plugins**: 5 production-ready plugins
+- **Average per Plugin**: ~2,316 downloads
+- **Most Popular**: VideoDownloader (33% of total downloads)
+
+### 🔍 Plugin Details
+Click on any plugin name to view its repository and release notes:
+- [🎥 VideoDownloader](https://github.com/ruslanlap/PowerToysRun-VideoDownloader) - Latest: v1.0.11
+- [⚡ SpeedTest](https://github.com/ruslanlap/PowerToysRun-SpeedTest) - Latest: v1.0.7
+- [📚 Definition](https://github.com/ruslanlap/PowerToysRun-Definition) - Latest: v1.2.1
+- [🌤️ Weather](https://github.com/ruslanlap/PowerToysRun-Weather) - Latest: v1.0.1
+- [🍅 Pomodoro](https://github.com/ruslanlap/PowerToysRun-Pomodoro) - Latest: v1.0.0
+
+</details>
 
 <!-- TOTAL_DL_END -->
 

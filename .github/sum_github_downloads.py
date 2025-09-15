@@ -1,5 +1,7 @@
 
 #!/usr/bin/env python3
+
+from datetime import datetime, timedelta
 """
 sum_github_downloads.py
 ---------------------------------
@@ -125,6 +127,41 @@ def sum_repo_downloads(owner, repo, token, include_prereleases=False, exclude_dr
 def human_int(n):
     return f"{n:,}".replace(",", " ")
 
+def load_history(history_path):
+    """Load download history from JSON file."""
+    try:
+        with open(history_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+
+def save_history(history, history_path):
+    """Save download history to JSON file."""
+    os.makedirs(os.path.dirname(history_path) or ".", exist_ok=True)
+    with open(history_path, "w", encoding="utf-8") as f:
+        json.dump(history, f, ensure_ascii=False, indent=2)
+
+def compute_growth_metrics(history, current_total):
+    """Compute growth metrics from history."""
+    if len(history) < 2:
+        return {"monthly_growth": "N/A", "weekly_avg": "N/A"}
+    
+    # Get last entry
+    last_total = history[-1]["grand_total"]
+    growth_pct = ((current_total - last_total) / last_total * 100) if last_total > 0 else 0
+    
+    # Weekly average: sum last 7 days / 7, but since weekly runs, approximate as recent deltas
+    recent_deltas = []
+    for i in range(1, min(8, len(history))):
+        delta = history[-i]["grand_total"] - history[-i-1]["grand_total"] if i < len(history) else 0
+        recent_deltas.append(delta)
+    weekly_avg = sum(recent_deltas[-7:]) / 7 if recent_deltas else 0
+    
+    return {
+        "monthly_growth": f"+{growth_pct:.1f}%" if growth_pct > 0 else f"{growth_pct:.1f}%",
+        "weekly_avg": human_int(int(weekly_avg))
+    }
+
 def main():
     ap = argparse.ArgumentParser(description="Sum GitHub release downloads across repos.")
     who = ap.add_mutually_exclusive_group(required=True)
@@ -171,6 +208,25 @@ def main():
             time.sleep(args.timeout)
 
     results_sorted = sorted(results, key=lambda r: r["downloads"], reverse=True)
+    # Handle historical data
+    history_path = "stats/download_history.json"
+    history = load_history(history_path)
+    
+    today = datetime.now().strftime("%Y-%m-%d")
+    new_entry = {
+        "date": today,
+        "grand_total": grand_total,
+        "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+    }
+    
+    # Avoid duplicates for same day
+    if not history or history[-1]["date"] != today:
+        history.append(new_entry)
+        save_history(history, history_path)
+    
+    # Compute growth metrics
+    growth_metrics = compute_growth_metrics(history, grand_total)
+    
     data = {
         "owner": owner,
         "filter": args.filter or None,
@@ -178,6 +234,7 @@ def main():
         "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         "grand_total": grand_total,
         "grand_total_human": human_int(grand_total),
+        "growth": growth_metrics,
         "repos": results_sorted,
     }
 
@@ -196,9 +253,23 @@ def main():
     os.makedirs(os.path.dirname(args.out_shield) or ".", exist_ok=True)
     with open(args.out_shield, "w", encoding="utf-8") as f:
         json.dump(shield, f, ensure_ascii=False)
+    
+    # Write growth shield JSON
+    growth_shield_path = args.out_shield.replace("total_downloads_shield.json", "growth_shield.json")
+    growth_shield = {
+        "schemaVersion": 1,
+        "label": "monthly growth",
+        "message": growth_metrics["monthly_growth"],
+        "color": "brightgreen" if "growth_pct" in locals() and growth_pct > 10 else "yellow" if growth_pct > 0 else "red"
+    }
+    os.makedirs(os.path.dirname(growth_shield_path) or ".", exist_ok=True)
+    with open(growth_shield_path, "w", encoding="utf-8") as f:
+        json.dump(growth_shield, f, ensure_ascii=False)
 
     if args.print:
         print(f"Мої плагіни сумарно скачали {human_int(grand_total)} разів")
+        print(f"Monthly growth: {growth_metrics['monthly_growth']}")
+        print(f"Weekly avg: {growth_metrics['weekly_avg']}")
 
 if __name__ == "__main__":
     main()

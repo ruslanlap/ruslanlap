@@ -17,6 +17,9 @@ def update_readme_downloads(readme_path, stats_json_path):
         with open(stats_json_path, 'r', encoding='utf-8') as f:
             stats = json.load(f)
             downloads = stats.get('grand_total_human', '0')
+            growth = stats.get('growth', {})
+            monthly_growth = growth.get('monthly_growth', 'N/A')
+            weekly_avg = growth.get('weekly_avg', 'N/A')
     except (FileNotFoundError, json.JSONDecodeError) as e:
         print(f"Error reading stats file: {e}", file=sys.stderr)
         return False
@@ -32,7 +35,9 @@ def update_readme_downloads(readme_path, stats_json_path):
     # Define markers
     start_marker = '<!-- TOTAL_DL_START -->'
     end_marker = '<!-- TOTAL_DL_END -->'
-    new_section = f'{start_marker}\n**Total downloads across my plugins:** **{downloads}** 🚀\n{end_marker}'
+    growth_badge = '![Monthly Growth](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ruslanlap/ruslanlap/master/stats/growth_shield.json)'
+    growth_text = f'\n\n**Monthly Growth:** {monthly_growth} 📈 | **Weekly Avg:** {weekly_avg} downloads'
+    new_section = f'{start_marker}\n**Total downloads across my plugins:** **{downloads}** 🚀{growth_text}\n{end_marker}'
     
     # Find the markers in the content
     start_pos = content.find(start_marker)
@@ -46,6 +51,18 @@ def update_readme_downloads(readme_path, stats_json_path):
         summary_pos = content.find('## 📊 Downloads Summary')
         badge_line = '![Total Downloads](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ruslanlap/ruslanlap/master/stats/total_downloads_shield.json)'
         badge_pos = content.find(badge_line, summary_pos)
+        growth_badge_line = '![Monthly Growth](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ruslanlap/ruslanlap/master/stats/growth_shield.json)'
+        # Insert growth badge after total badge if section exists
+        if badge_pos >= 0:
+            insert_pos = content.find('\n', badge_pos) + 1
+            # Check if growth badge already exists after
+            if growth_badge_line not in content[insert_pos:insert_pos+200]:
+                updated_content = content[:insert_pos] + f'\n{growth_badge}' + content[insert_pos:]
+            else:
+                updated_content = content
+        else:
+            # Fallback to original
+            updated_content = content
         
         if badge_pos >= 0:
             insert_pos = badge_pos + len(badge_line) + 1
