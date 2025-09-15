@@ -6,6 +6,12 @@
 ### 📖 about my plugin's 
 https://windowsforum.com/threads/powertoys-run-gets-powerful-with-new-plugins-speedtest-definition-and-videodownloader.369571/
 
+## 📊 Downloads Summary
+![Total Downloads](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ruslanlap/ruslanlap/master/stats/total_downloads_shield.json)
+
+<!-- TOTAL_DL_START -->
+**Total downloads across my plugins:** **0** 🚀
+<!-- TOTAL_DL_END -->
 
 ---
 

@@ -1,0 +1,50 @@
+
+name: Update total downloads
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * *"  # every day at 06:17 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install --upgrade pip requests
+
+      - name: Run counter
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          python sum_github_downloads.py \
+            --user ruslanlap \
+            --filter "^PowerToysRun-|^Community\.PowerToys\.Run|^pagespeed-insights-mcp|^Context7|^ClipboardComposer|^VideoDownloader" \
+            --include-prereleases \
+            --out-json stats/total_downloads.json \
+            --out-shield stats/total_downloads_shield.json \
+            --print
+
+      - name: Commit changes (if any)
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stats/total_downloads.json stats/total_downloads_shield.json || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore(stats): update total downloads badge"
+            git push
+          fi
