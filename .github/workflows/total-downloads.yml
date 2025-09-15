@@ -28,7 +28,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          python sum_github_downloads.py \
+          python .github/sum_github_downloads.py \
             --user ruslanlap \
             --filter "^PowerToysRun-|^Community\.PowerToys\.Run|^pagespeed-insights-mcp|^Context7|^ClipboardComposer|^VideoDownloader" \
             --include-prereleases \
