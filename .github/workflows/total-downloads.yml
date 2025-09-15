@@ -2,6 +2,9 @@
 name: Update total downloads
 
 on:
+  push:
+    branches:
+      - master
   workflow_dispatch:
   schedule:
     - cron: "17 6 * * *"  # every day at 06:17 UTC
