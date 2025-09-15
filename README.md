@@ -9,8 +9,7 @@ https://windowsforum.com/threads/powertoys-run-gets-powerful-with-new-plugins-sp
 ## 📊 Downloads Summary
 ![Total Downloads](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ruslanlap/ruslanlap/master/stats/total_downloads_shield.json)
 
-<!-- TOTAL_DL_START -->
-**Total downloads across my plugins:** **11 581** 🚀
+I 581** 🚀
 <!-- TOTAL_DL_END -->
 
 ---

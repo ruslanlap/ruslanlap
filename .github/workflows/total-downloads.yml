@@ -1,4 +1,3 @@
-
 name: Update total downloads
 
 on:
@@ -38,16 +37,20 @@ jobs:
             --out-json stats/total_downloads.json \
             --out-shield stats/total_downloads_shield.json \
             --print
+            
+      - name: Update README with download stats
+        run: |
+          python .github/update_readme.py
 
       - name: Commit changes (if any)
         run: |
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add stats/total_downloads.json stats/total_downloads_shield.json || true
+          git add stats/total_downloads.json stats/total_downloads_shield.json README.md || true
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore(stats): update total downloads badge"
+            git commit -m "chore(stats): update total downloads badge and README"
             git push
           fi
