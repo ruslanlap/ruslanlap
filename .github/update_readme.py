@@ -29,42 +29,35 @@ def update_readme_downloads(readme_path, stats_json_path):
         print(f"Error reading README file: {e}", file=sys.stderr)
         return False
 
-    # Update the download count in the README
-    # First check if the pattern exists
-    if '<!-- TOTAL_DL_START -->' in content and '<!-- TOTAL_DL_END -->' in content:
-        pattern = r'(<!-- TOTAL_DL_START -->\n\*\*Total downloads across my plugins:\*\* \*\*).*?(\*\* 🚀\n<!-- TOTAL_DL_END -->)'
-        replacement = f'\\1{downloads}\\2'
-        updated_content = re.sub(pattern, replacement, content)
-    else:
-        # If the pattern doesn't exist or is broken, recreate the entire section
-        start_marker = '<!-- TOTAL_DL_START -->'
-        end_marker = '<!-- TOTAL_DL_END -->'
-        new_section = f'{start_marker}\n**Total downloads across my plugins:** **{downloads}** 🚀\n{end_marker}'
+    # Define markers
+    start_marker = '<!-- TOTAL_DL_START -->'
+    end_marker = '<!-- TOTAL_DL_END -->'
+    new_section = f'{start_marker}\n**Total downloads across my plugins:** **{downloads}** 🚀\n{end_marker}'
+    
+    # Find the markers in the content
+    start_pos = content.find(start_marker)
+    end_pos = content.find(end_marker)
+    
+    if start_pos >= 0 and end_pos >= 0 and end_pos > start_pos:
+        # Replace the entire section between markers
+        updated_content = content[:start_pos] + new_section + content[end_pos + len(end_marker):]
+    elif '## 📊 Downloads Summary' in content:
+        # Find the downloads summary section and add after it
+        summary_pos = content.find('## 📊 Downloads Summary')
+        badge_line = '![Total Downloads](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ruslanlap/ruslanlap/master/stats/total_downloads_shield.json)'
+        badge_pos = content.find(badge_line, summary_pos)
         
-        # Try to find the section between markers even if it's malformed
-        start_pos = content.find(start_marker)
-        end_pos = content.find(end_marker)
-        
-        if start_pos >= 0 and end_pos >= 0 and end_pos > start_pos:
-            # Replace the entire section
-            updated_content = content[:start_pos] + new_section + content[end_pos + len(end_marker):]
-        elif '## 📊 Downloads Summary' in content:
-            # Find the downloads summary section and add after it
-            summary_pos = content.find('## 📊 Downloads Summary')
-            badge_line = '![Total Downloads](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ruslanlap/ruslanlap/master/stats/total_downloads_shield.json)'
-            badge_pos = content.find(badge_line, summary_pos)
-            
-            if badge_pos >= 0:
-                insert_pos = badge_pos + len(badge_line) + 2  # +2 for newlines
-                updated_content = content[:insert_pos] + '\n' + new_section + '\n' + content[insert_pos:]
-            else:
-                # Can't find the right place, just append to the end
-                updated_content = content
-                print("Could not find the right place to insert download stats", file=sys.stderr)
+        if badge_pos >= 0:
+            insert_pos = badge_pos + len(badge_line) + 1
+            updated_content = content[:insert_pos] + '\n\n' + new_section + content[insert_pos:]
         else:
-            # Can't find any markers, don't update
-            updated_content = content
-            print("Could not find download stats markers in README", file=sys.stderr)
+            # Can't find the right place, don't update
+            print("Could not find the badge line in README", file=sys.stderr)
+            return False
+    else:
+        # Can't find any markers or section, don't update
+        print("Could not find download stats section in README", file=sys.stderr)
+        return False
 
     # Write the updated content back to the README
     if updated_content != content:
