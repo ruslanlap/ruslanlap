@@ -144,22 +144,23 @@ def save_history(history, history_path):
 def compute_growth_metrics(history, current_total):
     """Compute growth metrics from history."""
     if len(history) < 2:
-        return {"monthly_growth": "N/A", "weekly_avg": "N/A"}
-    
+        return {"monthly_growth": "N/A", "weekly_avg": "N/A", "growth_pct": 0}
+
     # Get last entry
     last_total = history[-1]["grand_total"]
     growth_pct = ((current_total - last_total) / last_total * 100) if last_total > 0 else 0
-    
+
     # Weekly average: sum last 7 days / 7, but since weekly runs, approximate as recent deltas
     recent_deltas = []
     for i in range(1, min(8, len(history))):
         delta = history[-i]["grand_total"] - history[-i-1]["grand_total"] if i < len(history) else 0
         recent_deltas.append(delta)
     weekly_avg = sum(recent_deltas[-7:]) / 7 if recent_deltas else 0
-    
+
     return {
         "monthly_growth": f"+{growth_pct:.1f}%" if growth_pct > 0 else f"{growth_pct:.1f}%",
-        "weekly_avg": human_int(int(weekly_avg))
+        "weekly_avg": human_int(int(weekly_avg)),
+        "growth_pct": growth_pct
     }
 
 def main():
@@ -226,7 +227,7 @@ def main():
     
     # Compute growth metrics
     growth_metrics = compute_growth_metrics(history, grand_total)
-    
+
     data = {
         "owner": owner,
         "filter": args.filter or None,
@@ -256,11 +257,12 @@ def main():
     
     # Write growth shield JSON
     growth_shield_path = args.out_shield.replace("total_downloads_shield.json", "growth_shield.json")
+    growth_pct = growth_metrics["growth_pct"]
     growth_shield = {
         "schemaVersion": 1,
         "label": "monthly growth",
         "message": growth_metrics["monthly_growth"],
-        "color": "brightgreen" if "growth_pct" in locals() and growth_pct > 10 else "yellow" if growth_pct > 0 else "red"
+        "color": "brightgreen" if growth_pct > 10 else "yellow" if growth_pct > 0 else "red"
     }
     os.makedirs(os.path.dirname(growth_shield_path) or ".", exist_ok=True)
     with open(growth_shield_path, "w", encoding="utf-8") as f:
