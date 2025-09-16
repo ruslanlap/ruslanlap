@@ -3,8 +3,8 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ruslan-lapiniak-3b912b201?originalSubdomain=ua)
 [![Followers](https://img.shields.io/github/followers/ruslanlap?style=for-the-badge&logo=github)](https://github.com/ruslanlap?tab=followers)
 
-### 📖 about my plugin's 
-https://windowsforum.com/threads/powertoys-run-gets-powerful-with-new-plugins-speedtest-definition-and-videodownloader.369571/
+More info & discussion at:
+PowerToys Run Gets Powerful with New Plugins: SpeedTest, Definition, and VideoDownloader — WindowsForum.com
 
 ## 📊 Downloads Summary ✨🚀✨
 
