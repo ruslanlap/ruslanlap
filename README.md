@@ -2,9 +2,9 @@
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ruslan-lapiniak-3b912b201?originalSubdomain=ua)
-[![GitHub Followers](https://img.shields.io/github/followers/ruslanlap?style=for-the-badge&logo=github)](https://github.com/ruslanlap?tab=followers)
-[![Total Stars](https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&color=7c007c&labelColor=640464&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/ruslanlap)](https://github.com/ruslanlap?tab=repositories&sort=stargazers)
-[![Total Forks](https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=fork&color=55960c&labelColor=488207&label=Forks&style=for-the-badge&query=%24.forks&url=https://api.github-star-counter.workers.dev/user/ruslanlap)](https://github.com/ruslanlap?tab=repositories&sort=stargazers)
+[![GitHub Followers](https://img.shields.io/github/followers/ruslanlap?style=for-the-badge&logo=github&color=FFD700&labelColor=0057B7)](https://github.com/ruslanlap?tab=followers)
+[![Total Stars](https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&color=FFD700&labelColor=0057B7&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/ruslanlap)](https://github.com/ruslanlap?tab=repositories&sort=stargazers)
+[![Total Forks](https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=fork&color=FFD700&labelColor=0057B7&label=Forks&style=for-the-badge&query=%24.forks&url=https://api.github-star-counter.workers.dev/user/ruslanlap)](https://github.com/ruslanlap?tab=repositories&sort=stargazers)
 
 </div>
 
