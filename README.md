@@ -199,7 +199,7 @@ $ docker-compose up
 $ ansible-playbook deploy.yml
 $ git push origin main
 ```
-
+how to use custom badges for stars and downloads read in default_badges
 ---
 
 ⭐️ From [Ruslan](https://github.com/ruslanlap)
