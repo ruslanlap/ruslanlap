@@ -199,7 +199,9 @@ $ docker-compose up
 $ ansible-playbook deploy.yml
 $ git push origin main
 ```
-how to use custom badges for stars and downloads read in default_badges
+### ⭐ Stars & ⬇ Downloads
+how to use custom badges for stars and dowloads
+[Default badges: Stars & Downloads](https://github.com/ruslanlap/ruslanlap/blob/master/Default_badges_starsAndDownloads.md)
 ---
 
 ⭐️ From [Ruslan](https://github.com/ruslanlap)
