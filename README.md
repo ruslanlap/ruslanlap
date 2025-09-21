@@ -7,6 +7,15 @@
 [![Total Forks](https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=fork&color=FFD700&labelColor=0057B7&label=Forks&style=for-the-badge&query=%24.forks&url=https://api.github-star-counter.workers.dev/user/ruslanlap)](https://github.com/ruslanlap?tab=repositories&sort=stargazers)
 </div>
 
+[![Total Stars](https://img.shields.io/badge/dynamic/json
+  ?url=https://raw.githubusercontent.com/ruslanlap/ruslanlap/master/stats/stars.json
+  &query=%.stars
+  &label=Stars
+  &logo=github
+  &style=for-the-badge
+  &color=FFD700
+  &labelColor=0057B7)](https://github.com/ruslanlap?tab=repositories&sort=stargazers)
+
 ## 📖 About my Plugins  
 
 <div align="center">
