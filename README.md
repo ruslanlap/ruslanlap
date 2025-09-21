@@ -5,10 +5,17 @@
 [![GitHub Followers](https://img.shields.io/github/followers/ruslanlap?style=for-the-badge&logo=github&color=FFD700&labelColor=0057B7)](https://github.com/ruslanlap?tab=followers)
 [![Total Stars](https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&color=FFD700&labelColor=0057B7&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/ruslanlap)](https://github.com/ruslanlap?tab=repositories&sort=stargazers)
 [![Total Forks](https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=fork&color=FFD700&labelColor=0057B7&label=Forks&style=for-the-badge&query=%24.forks&url=https://api.github-star-counter.workers.dev/user/ruslanlap)](https://github.com/ruslanlap?tab=repositories&sort=stargazers)
+</div>
+
+## 📖 About my Plugins  
+
+<div align="center">
+
+🔌 Check out the article about my PowerToys Run plugins:  
+
+[![Read Article](https://img.shields.io/badge/WindowsForum-Read%20Post-0057B7?style=for-the-badge&logo=windows&logoColor=white&labelColor=FFD700)](https://windowsforum.com/threads/powertoys-run-gets-powerful-with-new-plugins-speedtest-definition-and-videodownloader.369571/)
 
 </div>
-### 📖 About my plugins
-[PowerToys Run gets powerful with new plugins: SpeedTest, Definition, and VideoDownloader](https://windowsforum.com/threads/powertoys-run-gets-powerful-with-new-plugins-speedtest-definition-and-videodownloader.369571/)
 
 ## 📊 Downloads Summary ✨🚀✨
 
