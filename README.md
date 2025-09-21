@@ -11,7 +11,7 @@
 
 <div align="center">
 
-🔌 Check out the article about my PowerToys Run plugins:  
+🔌 Check out the article about my PowerToys Run plugins check link in badge 👇:  
 
 [![Read Article](https://img.shields.io/badge/WindowsForum-Read%20Post-0057B7?style=for-the-badge&logo=windows&logoColor=white&labelColor=FFD700)](https://windowsforum.com/threads/powertoys-run-gets-powerful-with-new-plugins-speedtest-definition-and-videodownloader.369571/)
 
