@@ -18,7 +18,7 @@ jobs:
         with:
           script: |
             const username = 'ruslanlap';
-            const includeForks = false;
+            const includeForks = true;
             const perPage = 100;
             let page = 1, repos = [];
 
