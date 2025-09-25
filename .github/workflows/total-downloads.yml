@@ -1,56 +1,56 @@
 name: Update total downloads
 
 on:
-push:
-branches:
-- master
-workflow_dispatch:
-schedule:
-- cron: "17 6 * * 0"  # every Sunday at 06:17 UTC
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * 0"  # every Sunday at 06:17 UTC
 
 permissions:
-contents: write
+  contents: write
 
 jobs:
-build:
-runs-on: ubuntu-latest
-steps:
-- name: Checkout
-uses: actions/checkout@v4
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-- name: Setup Python  
-    uses: actions/setup-python@v5  
-    with:  
-      python-version: "3.12"  
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
 
-  - name: Install deps  
-    run: pip install --upgrade pip requests  
+      - name: Install deps
+        run: pip install --upgrade pip requests
 
-  - name: Run counter  
-    env:  
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
-    run: |  
-      python .github/sum_github_downloads.py \  
-        --user ruslanlap \  
-        --filter "^PowerToysRun-|^Community\.PowerToys\.Run|^pagespeed-insights-mcp|^Context7|^ClipboardComposer|^VideoDownloader" \  
-        --include-prereleases \  
-        --out-json stats/total_downloads.json \  
-        --out-shield stats/total_downloads_shield.json \  
-        --print  
-          
-  - name: Update README with download stats  
-    run: |  
-      python .github/update_readme.py  
+      - name: Run counter
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python .github/sum_github_downloads.py \
+            --user ruslanlap \
+            --filter "^PowerToysRun-|^Community\.PowerToys\.Run|^pagespeed-insights-mcp|^Context7|^ClipboardComposer|^VideoDownloader" \
+            --include-prereleases \
+            --out-json stats/total_downloads.json \
+            --out-shield stats/total_downloads_shield.json \
+            --print
 
-  - name: Commit changes (if any)  
-    run: |  
-      set -e  
-      git config user.name "github-actions[bot]"  
-      git config user.email "41898282+github-actions[bot]@users.noreply.github.com"  
-      git add stats/total_downloads.json stats/total_downloads_shield.json stats/download_history.json stats/growth_shield.json README.md || true  
-      if git diff --cached --quiet; then  
-        echo "No changes to commit."  
-      else  
-        git commit -m "chore(stats): update total downloads badge, growth metrics, and README"  
-        git push  
-      fi
+      - name: Update README with download stats
+        run: |
+          python .github/update_readme.py
+
+      - name: Commit changes (if any)
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stats/total_downloads.json stats/total_downloads_shield.json stats/download_history.json stats/growth_shield.json README.md || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore(stats): update total downloads badge, growth metrics, and README"
+            git push
+          fi
