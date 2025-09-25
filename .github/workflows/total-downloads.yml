@@ -27,16 +27,16 @@ uses: actions/checkout@v4
     run: pip install --upgrade pip requests  
 
   - name: Run counter  
-  env:  
-    GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
-  run: |  
-    python .github/sum_github_downloads.py \  
-      --user ruslanlap \  
-      --include-prereleases \  
-      --out-json stats/total_downloads.json \  
-      --out-shield stats/total_downloads_shield.json \  
-      --print
-
+    env:  
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
+    run: |  
+      python .github/sum_github_downloads.py \  
+        --user ruslanlap \  
+        --filter "^PowerToysRun-|^Community\.PowerToys\.Run|^pagespeed-insights-mcp|^Context7|^ClipboardComposer|^VideoDownloader" \  
+        --include-prereleases \  
+        --out-json stats/total_downloads.json \  
+        --out-shield stats/total_downloads_shield.json \  
+        --print  
           
   - name: Update README with download stats  
     run: |  
