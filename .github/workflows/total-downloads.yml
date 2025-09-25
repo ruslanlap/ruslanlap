@@ -32,7 +32,6 @@ jobs:
         run: |
           python .github/sum_github_downloads.py \
             --user ruslanlap \
-            
             --include-prereleases \
             --out-json stats/total_downloads.json \
             --out-shield stats/total_downloads_shield.json \
