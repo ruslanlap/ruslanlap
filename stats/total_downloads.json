@@ -1,20 +1,20 @@
 {
   "owner": "ruslanlap",
-  "filter": "^PowerToysRun-|^Community\\.PowerToys\\.Run|^pagespeed-insights-mcp|^Context7|^ClipboardComposer|^VideoDownloader",
+  "filter": ".*",
   "include_prereleases": true,
-  "generated_at": "2025-09-25T19:46:39Z",
-  "grand_total": 12333,
-  "grand_total_human": "12 333",
+  "generated_at": "2025-09-25T20:49:02Z",
+  "grand_total": 13288,
+  "grand_total_human": "13 288",
   "growth": {
-    "monthly_growth": "-7.2%",
+    "monthly_growth": "+0.0%",
     "weekly_avg": "242",
-    "growth_pct": -7.158988256549232
+    "growth_pct": 0.030111412225233364
   },
   "repos": [
     {
       "repo": "PowerToysRun-VideoDownloader",
       "html_url": "https://github.com/ruslanlap/PowerToysRun-VideoDownloader",
-      "downloads": 3966,
+      "downloads": 3968,
       "releases": [
         {
           "tag": "v1.0.11",
@@ -40,7 +40,7 @@
             },
             {
               "name": "VideoDownloader-1.0.11-x64.zip",
-              "download_count": 191,
+              "download_count": 193,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-VideoDownloader/releases/download/v1.0.11/VideoDownloader-1.0.11-x64.zip"
             },
             {
@@ -49,7 +49,7 @@
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-VideoDownloader/releases/download/v1.0.11/VideoDownloader-1.0.11-x64.zip.sha256"
             }
           ],
-          "release_total": 228
+          "release_total": 230
         },
         {
           "tag": "v1.10",
@@ -831,6 +831,298 @@
       ]
     },
     {
+      "repo": "CommunityPowerToysRunPlugin-QuickNotes",
+      "html_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes",
+      "downloads": 858,
+      "releases": [
+        {
+          "tag": "v1.0.9",
+          "name": "QuickNotes v1.0.9",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2025-08-18T12:05:53Z",
+          "assets": [
+            {
+              "name": "QuickNotes-1.0.9-arm64.zip",
+              "download_count": 5,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.9/QuickNotes-1.0.9-arm64.zip"
+            },
+            {
+              "name": "QuickNotes-1.0.9-arm64.zip.sha256",
+              "download_count": 0,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.9/QuickNotes-1.0.9-arm64.zip.sha256"
+            },
+            {
+              "name": "QuickNotes-1.0.9-x64.zip",
+              "download_count": 186,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.9/QuickNotes-1.0.9-x64.zip"
+            },
+            {
+              "name": "QuickNotes-1.0.9-x64.zip.sha256",
+              "download_count": 1,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.9/QuickNotes-1.0.9-x64.zip.sha256"
+            }
+          ],
+          "release_total": 192
+        },
+        {
+          "tag": "v1.0.8",
+          "name": "QuickNotes v1.0.8",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2025-07-03T13:37:53Z",
+          "assets": [
+            {
+              "name": "checksums.txt",
+              "download_count": 5,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.8/checksums.txt"
+            },
+            {
+              "name": "QuickNotes-1.0.8-arm64.zip",
+              "download_count": 23,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.8/QuickNotes-1.0.8-arm64.zip"
+            },
+            {
+              "name": "QuickNotes-1.0.8-arm64.zip.sha256",
+              "download_count": 0,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.8/QuickNotes-1.0.8-arm64.zip.sha256"
+            },
+            {
+              "name": "QuickNotes-1.0.8-x64.zip",
+              "download_count": 184,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.8/QuickNotes-1.0.8-x64.zip"
+            },
+            {
+              "name": "QuickNotes-1.0.8-x64.zip.sha256",
+              "download_count": 6,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.8/QuickNotes-1.0.8-x64.zip.sha256"
+            }
+          ],
+          "release_total": 218
+        },
+        {
+          "tag": "v1.0.7",
+          "name": "QuickNotes v1.0.7",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2025-06-03T09:44:59Z",
+          "assets": [
+            {
+              "name": "QuickNotes-v1.0.7-arm64.zip",
+              "download_count": 4,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.7/QuickNotes-v1.0.7-arm64.zip"
+            },
+            {
+              "name": "QuickNotes-v1.0.7-x64.zip",
+              "download_count": 95,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.7/QuickNotes-v1.0.7-x64.zip"
+            }
+          ],
+          "release_total": 99
+        },
+        {
+          "tag": "v1.0.6",
+          "name": "QuickNotes v1.0.6",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2025-05-30T00:56:53Z",
+          "assets": [
+            {
+              "name": "QuickNotes-v1.0.6-arm64.zip",
+              "download_count": 0,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.6/QuickNotes-v1.0.6-arm64.zip"
+            },
+            {
+              "name": "QuickNotes-v1.0.6-x64.zip",
+              "download_count": 17,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.6/QuickNotes-v1.0.6-x64.zip"
+            }
+          ],
+          "release_total": 17
+        },
+        {
+          "tag": "v0.1.1",
+          "name": "QuickNotes v0.1.1",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2025-05-20T12:28:37Z",
+          "assets": [
+            {
+              "name": "QuickNotes-v0.1.1-arm64.zip",
+              "download_count": 0,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v0.1.1/QuickNotes-v0.1.1-arm64.zip"
+            },
+            {
+              "name": "QuickNotes-v0.1.1-x64.zip",
+              "download_count": 15,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v0.1.1/QuickNotes-v0.1.1-x64.zip"
+            }
+          ],
+          "release_total": 15
+        },
+        {
+          "tag": "v0.1.0",
+          "name": "QuickNotes v0.1.0",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2025-05-13T11:53:17Z",
+          "assets": [
+            {
+              "name": "QuickNotes-v0.1.0-arm64.zip",
+              "download_count": 1,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v0.1.0/QuickNotes-v0.1.0-arm64.zip"
+            },
+            {
+              "name": "QuickNotes-v0.1.0-x64.zip",
+              "download_count": 62,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v0.1.0/QuickNotes-v0.1.0-x64.zip"
+            }
+          ],
+          "release_total": 63
+        },
+        {
+          "tag": "v0.90.1",
+          "name": "QuickNotes v0.90.1",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2025-04-28T10:27:29Z",
+          "assets": [
+            {
+              "name": "QuickNotes-v0.90.1-arm64.zip",
+              "download_count": 1,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v0.90.1/QuickNotes-v0.90.1-arm64.zip"
+            },
+            {
+              "name": "QuickNotes-v0.90.1-x64.zip",
+              "download_count": 36,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v0.90.1/QuickNotes-v0.90.1-x64.zip"
+            }
+          ],
+          "release_total": 37
+        },
+        {
+          "tag": "v1.0.4",
+          "name": "QuickNotes v1.0.4",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2025-04-02T10:18:17Z",
+          "assets": [
+            {
+              "name": "QuickNotes-v1.0.4-arm64.zip",
+              "download_count": 5,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.4/QuickNotes-v1.0.4-arm64.zip"
+            },
+            {
+              "name": "QuickNotes-v1.0.4-x64.zip",
+              "download_count": 178,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.4/QuickNotes-v1.0.4-x64.zip"
+            }
+          ],
+          "release_total": 183
+        },
+        {
+          "tag": "v1.0.3",
+          "name": "QuickNotes v1.0.3",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2025-03-28T13:32:00Z",
+          "assets": [
+            {
+              "name": "QuickNotes-v1.0.3-arm64.zip",
+              "download_count": 1,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.3/QuickNotes-v1.0.3-arm64.zip"
+            },
+            {
+              "name": "QuickNotes-v1.0.3-x64.zip",
+              "download_count": 5,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.3/QuickNotes-v1.0.3-x64.zip"
+            }
+          ],
+          "release_total": 6
+        },
+        {
+          "tag": "v1.0.2",
+          "name": "QuickNotes v1.0.2",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2025-03-27T16:13:26Z",
+          "assets": [
+            {
+              "name": "QuickNotes-v1.0.2-arm64.zip",
+              "download_count": 0,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.2/QuickNotes-v1.0.2-arm64.zip"
+            },
+            {
+              "name": "QuickNotes-v1.0.2-x64.zip",
+              "download_count": 4,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.2/QuickNotes-v1.0.2-x64.zip"
+            }
+          ],
+          "release_total": 4
+        },
+        {
+          "tag": "v1.0.1",
+          "name": "QuickNotes v1.0.1",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2025-03-24T23:30:54Z",
+          "assets": [
+            {
+              "name": "QuickNotes-v1.0.1-arm64.zip",
+              "download_count": 6,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.1/QuickNotes-v1.0.1-arm64.zip"
+            },
+            {
+              "name": "QuickNotes-v1.0.1-x64.zip",
+              "download_count": 14,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.1/QuickNotes-v1.0.1-x64.zip"
+            }
+          ],
+          "release_total": 20
+        },
+        {
+          "tag": "v1.0.0",
+          "name": "QuickNotes v1.0.0",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2025-03-24T22:33:05Z",
+          "assets": [
+            {
+              "name": "QuickNotes-v1.0.0-arm64.zip",
+              "download_count": 2,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.0/QuickNotes-v1.0.0-arm64.zip"
+            },
+            {
+              "name": "QuickNotes-v1.0.0-x64.zip",
+              "download_count": 2,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.0/QuickNotes-v1.0.0-x64.zip"
+            }
+          ],
+          "release_total": 4
+        },
+        {
+          "tag": "latest",
+          "name": "QuickNotes v1.0.9",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2025-03-24T22:33:06Z",
+          "assets": [
+            {
+              "name": "QuickNotes-latest-arm64.zip",
+              "download_count": 0,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/latest/QuickNotes-latest-arm64.zip"
+            },
+            {
+              "name": "QuickNotes-latest-x64.zip",
+              "download_count": 0,
+              "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/latest/QuickNotes-latest-x64.zip"
+            }
+          ],
+          "release_total": 0
+        }
+      ]
+    },
+    {
       "repo": "PowerToysRun-Hotkeys",
       "html_url": "https://github.com/ruslanlap/PowerToysRun-Hotkeys",
       "downloads": 462,
@@ -1045,6 +1337,83 @@
       ]
     },
     {
+      "repo": "RetroWaveTheme.FlowLa",
+      "html_url": "https://github.com/ruslanlap/RetroWaveTheme.FlowLa",
+      "downloads": 56,
+      "releases": [
+        {
+          "tag": "v1.0.0.2",
+          "name": "",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2025-01-13T15:58:28Z",
+          "assets": [
+            {
+              "name": "Cyan.xaml",
+              "download_count": 5,
+              "browser_download_url": "https://github.com/ruslanlap/RetroWaveTheme.FlowLa/releases/download/v1.0.0.2/Cyan.xaml"
+            },
+            {
+              "name": "install_retro_wave.ps1",
+              "download_count": 5,
+              "browser_download_url": "https://github.com/ruslanlap/RetroWaveTheme.FlowLa/releases/download/v1.0.0.2/install_retro_wave.ps1"
+            },
+            {
+              "name": "Jurassic.xaml",
+              "download_count": 4,
+              "browser_download_url": "https://github.com/ruslanlap/RetroWaveTheme.FlowLa/releases/download/v1.0.0.2/Jurassic.xaml"
+            },
+            {
+              "name": "Palenight.xaml",
+              "download_count": 5,
+              "browser_download_url": "https://github.com/ruslanlap/RetroWaveTheme.FlowLa/releases/download/v1.0.0.2/Palenight.xaml"
+            },
+            {
+              "name": "RetroWave.xaml",
+              "download_count": 6,
+              "browser_download_url": "https://github.com/ruslanlap/RetroWaveTheme.FlowLa/releases/download/v1.0.0.2/RetroWave.xaml"
+            },
+            {
+              "name": "RetroWave1984.xaml",
+              "download_count": 5,
+              "browser_download_url": "https://github.com/ruslanlap/RetroWaveTheme.FlowLa/releases/download/v1.0.0.2/RetroWave1984.xaml"
+            },
+            {
+              "name": "TrueDracula.xaml",
+              "download_count": 6,
+              "browser_download_url": "https://github.com/ruslanlap/RetroWaveTheme.FlowLa/releases/download/v1.0.0.2/TrueDracula.xaml"
+            }
+          ],
+          "release_total": 36
+        },
+        {
+          "tag": "v1.0.0.1",
+          "name": "v1.0.0.1",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2024-09-30T16:21:03Z",
+          "assets": [
+            {
+              "name": "RetroWave.xaml",
+              "download_count": 9,
+              "browser_download_url": "https://github.com/ruslanlap/RetroWaveTheme.FlowLa/releases/download/v1.0.0.1/RetroWave.xaml"
+            },
+            {
+              "name": "RetroWave1984.xaml",
+              "download_count": 8,
+              "browser_download_url": "https://github.com/ruslanlap/RetroWaveTheme.FlowLa/releases/download/v1.0.0.1/RetroWave1984.xaml"
+            },
+            {
+              "name": "Themes.rar",
+              "download_count": 3,
+              "browser_download_url": "https://github.com/ruslanlap/RetroWaveTheme.FlowLa/releases/download/v1.0.0.1/Themes.rar"
+            }
+          ],
+          "release_total": 20
+        }
+      ]
+    },
+    {
       "repo": "PowerToysRun-CheatSheets",
       "html_url": "https://github.com/ruslanlap/PowerToysRun-CheatSheets",
       "downloads": 44,
@@ -1154,8 +1523,414 @@
       ]
     },
     {
+      "repo": "encrypt-decrypt-git-python",
+      "html_url": "https://github.com/ruslanlap/encrypt-decrypt-git-python",
+      "downloads": 28,
+      "releases": [
+        {
+          "tag": "v1.0.1",
+          "name": "Release v1.0.1",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2024-07-19T16:04:51Z",
+          "assets": [
+            {
+              "name": "cryptonit",
+              "download_count": 28,
+              "browser_download_url": "https://github.com/ruslanlap/encrypt-decrypt-git-python/releases/download/v1.0.1/cryptonit"
+            }
+          ],
+          "release_total": 28
+        }
+      ]
+    },
+    {
+      "repo": "Cryptonit-BOT",
+      "html_url": "https://github.com/ruslanlap/Cryptonit-BOT",
+      "downloads": 7,
+      "releases": [
+        {
+          "tag": "v1.0.6",
+          "name": "Release v1.0.6",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2024-09-06T13:57:08Z",
+          "assets": [
+            {
+              "name": "cryptonitbot-1.0.6-py3-none-any.whl",
+              "download_count": 2,
+              "browser_download_url": "https://github.com/ruslanlap/Cryptonit-BOT/releases/download/v1.0.6/cryptonitbot-1.0.6-py3-none-any.whl"
+            }
+          ],
+          "release_total": 2
+        },
+        {
+          "tag": "v1.0.5",
+          "name": "Release v1.0.5",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2024-09-06T13:49:20Z",
+          "assets": [
+            {
+              "name": "cryptonitbot-1.0.5-py3-none-any.whl",
+              "download_count": 1,
+              "browser_download_url": "https://github.com/ruslanlap/Cryptonit-BOT/releases/download/v1.0.5/cryptonitbot-1.0.5-py3-none-any.whl"
+            }
+          ],
+          "release_total": 1
+        },
+        {
+          "tag": "v1.0.4",
+          "name": "Release v1.0.4",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2024-09-06T13:33:53Z",
+          "assets": [
+            {
+              "name": "cryptonitbot-1.0.4-py3-none-any.whl",
+              "download_count": 1,
+              "browser_download_url": "https://github.com/ruslanlap/Cryptonit-BOT/releases/download/v1.0.4/cryptonitbot-1.0.4-py3-none-any.whl"
+            }
+          ],
+          "release_total": 1
+        },
+        {
+          "tag": "v1.0.3",
+          "name": "Release v1.0.3",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2024-09-06T13:25:19Z",
+          "assets": [
+            {
+              "name": "cryptonitbot-1.0.3-py3-none-any.whl",
+              "download_count": 1,
+              "browser_download_url": "https://github.com/ruslanlap/Cryptonit-BOT/releases/download/v1.0.3/cryptonitbot-1.0.3-py3-none-any.whl"
+            }
+          ],
+          "release_total": 1
+        },
+        {
+          "tag": "v1.0.1",
+          "name": "Release v1.0.2",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2024-07-29T14:57:07Z",
+          "assets": [
+            {
+              "name": "cryptonitbot-1.0.1-py3-none-any.whl",
+              "download_count": 1,
+              "browser_download_url": "https://github.com/ruslanlap/Cryptonit-BOT/releases/download/v1.0.1/cryptonitbot-1.0.1-py3-none-any.whl"
+            }
+          ],
+          "release_total": 1
+        },
+        {
+          "tag": "v1.0.0",
+          "name": "Release v1.0.1",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2024-07-29T14:52:24Z",
+          "assets": [
+            {
+              "name": "cryptonitbot-1.0.0-py3-none-any.whl",
+              "download_count": 1,
+              "browser_download_url": "https://github.com/ruslanlap/Cryptonit-BOT/releases/download/v1.0.0/cryptonitbot-1.0.0-py3-none-any.whl"
+            }
+          ],
+          "release_total": 1
+        }
+      ]
+    },
+    {
+      "repo": "AI_Broadcaster_Chats_Add-on",
+      "html_url": "https://github.com/ruslanlap/AI_Broadcaster_Chats_Add-on",
+      "downloads": 2,
+      "releases": [
+        {
+          "tag": "v0.0.2",
+          "name": "AI Chat Broadcaster v0.0.2",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2025-03-12T14:42:57Z",
+          "assets": [
+            {
+              "name": "ai_chat_broadcaster-0.0.2.zip",
+              "download_count": 2,
+              "browser_download_url": "https://github.com/ruslanlap/AI_Broadcaster_Chats_Add-on/releases/download/v0.0.2/ai_chat_broadcaster-0.0.2.zip"
+            }
+          ],
+          "release_total": 2
+        }
+      ]
+    },
+    {
+      "repo": "FavLinksFixer",
+      "html_url": "https://github.com/ruslanlap/FavLinksFixer",
+      "downloads": 2,
+      "releases": [
+        {
+          "tag": "v1.0",
+          "name": "FavLinksFixer v1.0",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2025-03-19T12:38:01Z",
+          "assets": [
+            {
+              "name": "unlockchangeyourname.bat",
+              "download_count": 1,
+              "browser_download_url": "https://github.com/ruslanlap/FavLinksFixer/releases/download/v1.0/unlockchangeyourname.bat"
+            },
+            {
+              "name": "unlockkkFavorites.bat",
+              "download_count": 1,
+              "browser_download_url": "https://github.com/ruslanlap/FavLinksFixer/releases/download/v1.0/unlockkkFavorites.bat"
+            }
+          ],
+          "release_total": 2
+        }
+      ]
+    },
+    {
+      "repo": ".dotfiles",
+      "html_url": "https://github.com/ruslanlap/.dotfiles",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "AccessibilityHelperFirefox",
+      "html_url": "https://github.com/ruslanlap/AccessibilityHelperFirefox",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "argocd",
+      "html_url": "https://github.com/ruslanlap/argocd",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "AsciiArtify",
+      "html_url": "https://github.com/ruslanlap/AsciiArtify",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "Automating-NEWUSERSSH-Key-Exchange",
+      "html_url": "https://github.com/ruslanlap/Automating-NEWUSERSSH-Key-Exchange",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "card",
+      "html_url": "https://github.com/ruslanlap/card",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "cmder_theme-catppuccin",
+      "html_url": "https://github.com/ruslanlap/cmder_theme-catppuccin",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "demo",
+      "html_url": "https://github.com/ruslanlap/demo",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "dotfiles",
+      "html_url": "https://github.com/ruslanlap/dotfiles",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "dotfiles2",
+      "html_url": "https://github.com/ruslanlap/dotfiles2",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "dots",
+      "html_url": "https://github.com/ruslanlap/dots",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "Flow-Launcher-Themes-Collection",
+      "html_url": "https://github.com/ruslanlap/Flow-Launcher-Themes-Collection",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "github.io",
+      "html_url": "https://github.com/ruslanlap/github.io",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "GulpPack",
+      "html_url": "https://github.com/ruslanlap/GulpPack",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "k-bot",
+      "html_url": "https://github.com/ruslanlap/k-bot",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "k-monitoring",
+      "html_url": "https://github.com/ruslanlap/k-monitoring",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "KDEbackUP",
+      "html_url": "https://github.com/ruslanlap/KDEbackUP",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "kubplugin",
+      "html_url": "https://github.com/ruslanlap/kubplugin",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "MultiUserCreate",
+      "html_url": "https://github.com/ruslanlap/MultiUserCreate",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "MultiUserCreator",
+      "html_url": "https://github.com/ruslanlap/MultiUserCreator",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "NotionTODO",
+      "html_url": "https://github.com/ruslanlap/NotionTODO",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "notiq-notionmanger-firefox",
+      "html_url": "https://github.com/ruslanlap/notiq-notionmanger-firefox",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "ohmyzsh",
+      "html_url": "https://github.com/ruslanlap/ohmyzsh",
+      "downloads": 0,
+      "releases": []
+    },
+    {
       "repo": "pagespeed-insights-mcp",
       "html_url": "https://github.com/ruslanlap/pagespeed-insights-mcp",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "palette-creator",
+      "html_url": "https://github.com/ruslanlap/palette-creator",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "Portfolio.io",
+      "html_url": "https://github.com/ruslanlap/Portfolio.io",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "pre-commit-auto-script",
+      "html_url": "https://github.com/ruslanlap/pre-commit-auto-script",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "promt-yamls",
+      "html_url": "https://github.com/ruslanlap/promt-yamls",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "PROXMOX-CATPPUCCIN-Theme",
+      "html_url": "https://github.com/ruslanlap/PROXMOX-CATPPUCCIN-Theme",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "putty-catppuccin-theme",
+      "html_url": "https://github.com/ruslanlap/putty-catppuccin-theme",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "repotransfer",
+      "html_url": "https://github.com/ruslanlap/repotransfer",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "ruslanlap",
+      "html_url": "https://github.com/ruslanlap/ruslanlap",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "ruslanlap_buymeacoffe",
+      "html_url": "https://github.com/ruslanlap/ruslanlap_buymeacoffe",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "siteonJSON",
+      "html_url": "https://github.com/ruslanlap/siteonJSON",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "SVG-Extractor-Firefox-add-on",
+      "html_url": "https://github.com/ruslanlap/SVG-Extractor-Firefox-add-on",
+      "downloads": 0,
+      "releases": [
+        {
+          "tag": "v1.1.1",
+          "name": "Release version 1.1.1",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2025-03-07T09:31:16Z",
+          "assets": [],
+          "release_total": 0
+        }
+      ]
+    },
+    {
+      "repo": "telegram_cryptonitbot",
+      "html_url": "https://github.com/ruslanlap/telegram_cryptonitbot",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "upptime_monitoring",
+      "html_url": "https://github.com/ruslanlap/upptime_monitoring",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "yadmdotfiles",
+      "html_url": "https://github.com/ruslanlap/yadmdotfiles",
+      "downloads": 0,
+      "releases": []
+    },
+    {
+      "repo": "yamls",
+      "html_url": "https://github.com/ruslanlap/yamls",
       "downloads": 0,
       "releases": []
     }
