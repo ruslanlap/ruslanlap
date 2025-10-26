@@ -24,9 +24,9 @@
 ![Total Downloads](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ruslanlap/ruslanlap/master/stats/total_downloads_shield.json) ![Monthly Growth](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ruslanlap/ruslanlap/master/stats/growth_shield.json)
 
 <!-- TOTAL_DL_START -->
-**Total downloads across my plugins:** **14 804** 🚀
+**Total downloads across my plugins:** **15 159** 🚀
 
-**Monthly Growth:** 0.0% 📈 | **Weekly Avg:** 424 downloads
+**Monthly Growth:** 0.0% 📈 | **Weekly Avg:** 461 downloads
 
 ### 🏆 Top Performing Plugins
 
