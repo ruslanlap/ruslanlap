@@ -30,15 +30,15 @@
 
 ### 🏆 Top Performing Plugins
 
-| 🏅 Rank | Plugin | Downloads | Growth | Description |
-|---------|--------|-----------|--------|-------------|
-| 🥇 | 🎥 **VideoDownloader** | 3,848 | 📈 | Download videos from YouTube and more |
-| 🥈 | ⚡ **SpeedTest** | 3,489 | 📈 | Internet speed testing |
-| 🥉 | 📚 **Definition** | 1,416 | 📈 | Dictionary definitions |
-| 4️⃣ | 🌤️ **Weather** | 1,064 | 📈 | Weather forecasts |
-| 5️⃣ | 🍅 **Pomodoro** | 1,017 | 📈 | Productivity timer |
+| 🏅 Rank | Plugin | Downloads | Share of Total | Latest Release |
+|---------|--------|-----------|----------------|----------------|
+| 🥇 | 🎥 **[Video Downloader](https://github.com/ruslanlap/PowerToysRun-VideoDownloader)** | 4,254 | 28.1% | v1.0.11 (Sep 05, 2025) |
+| 🥈 | ⚡ **[Speed Test](https://github.com/ruslanlap/PowerToysRun-SpeedTest)** | 4,196 | 27.7% | v1.0.7 (Sep 09, 2025) |
+| 🥉 | 📚 **[Definition](https://github.com/ruslanlap/PowerToysRun-Definition)** | 1,687 | 11.1% | v1.2.1 (Jul 08, 2025) |
+| 4️⃣ | 🌤️ **[Weather](https://github.com/ruslanlap/PowerToysRun-Weather)** | 1,243 | 8.2% | v0.90.1 (Apr 28, 2025) |
+| 5️⃣ | 🍅 **[Pomodoro](https://github.com/ruslanlap/PowerToysRun-Pomodoro)** | 1,224 | 8.1% | v0.90.1 (Apr 28, 2025) |
 
-*📊 Smart analytics updated weekly via automated workflows • Last updated: Recently*
+*📊 Smart analytics updated weekly via automated workflows • Last updated: Oct 26, 2025*
 
 <details>
 <summary>📈 View Detailed Analytics & Trends</summary>
@@ -49,10 +49,11 @@
 - **Plugin Performance**: Individual plugin download trends
 
 ### 🎯 Key Metrics
-- **Total Downloads**: 11,587 across all plugins
-- **Active Plugins**: 5 production-ready plugins
-- **Average per Plugin**: ~2,316 downloads
-- **Most Popular**: VideoDownloader (33% of total downloads)
+- **Total Downloads**: 15,161 across all plugins
+- **Active Plugins**: 17 repositories with downloads
+- **Average per Active Plugin**: 892 downloads
+- **Top Performer**: Video Downloader (28.1% of total downloads)
+- **Top 5 Combined**: 12,604 (83.1% of total downloads)
 
 ### 🔍 Plugin Details
 Click on any plugin name to view its repository and release notes:
