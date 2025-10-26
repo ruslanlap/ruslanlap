@@ -141,21 +141,44 @@ def save_history(history, history_path):
     with open(history_path, "w", encoding="utf-8") as f:
         json.dump(history, f, ensure_ascii=False, indent=2)
 
+def _parse_history_date(entry):
+    date_str = entry.get("date")
+    if not date_str:
+        return None
+    try:
+        return datetime.strptime(date_str, "%Y-%m-%d")
+    except ValueError:
+        return None
+
+
 def compute_growth_metrics(history, current_total):
     """Compute growth metrics from history."""
     if len(history) < 2:
         return {"monthly_growth": "N/A", "weekly_avg": "N/A", "growth_pct": 0}
 
-    # Get last entry
-    last_total = history[-1]["grand_total"]
-    growth_pct = ((current_total - last_total) / last_total * 100) if last_total > 0 else 0
+    latest_entry = history[-1]
+    latest_date = _parse_history_date(latest_entry)
 
-    # Weekly average: sum last 7 days / 7, but since weekly runs, approximate as recent deltas
-    recent_deltas = []
-    for i in range(1, min(8, len(history))):
-        delta = history[-i]["grand_total"] - history[-i-1]["grand_total"] if i < len(history) else 0
-        recent_deltas.append(delta)
-    weekly_avg = sum(recent_deltas[-7:]) / 7 if recent_deltas else 0
+    baseline_entry = None
+    if latest_date:
+        threshold_date = latest_date - timedelta(days=30)
+        for entry in reversed(history[:-1]):
+            entry_date = _parse_history_date(entry)
+            if entry_date and entry_date <= threshold_date:
+                baseline_entry = entry
+                break
+
+    if baseline_entry is None and len(history) >= 2:
+        # Fallback to the immediately previous entry when history is short
+        baseline_entry = history[-2]
+
+    baseline_total = baseline_entry.get("grand_total", 0) if baseline_entry else 0
+    growth_pct = ((current_total - baseline_total) / baseline_total * 100) if baseline_total > 0 else 0
+
+    totals = [entry.get("grand_total", 0) for entry in history]
+    deltas = [curr - prev for prev, curr in zip(totals, totals[1:])]
+    recent_deltas = deltas[-7:]
+    weekly_avg = sum(recent_deltas) / 7 if recent_deltas else 0
 
     return {
         "monthly_growth": f"+{growth_pct:.1f}%" if growth_pct > 0 else f"{growth_pct:.1f}%",
