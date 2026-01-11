@@ -24,21 +24,21 @@
 ![Total Downloads](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ruslanlap/ruslanlap/master/stats/total_downloads_shield.json) ![Monthly Growth](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ruslanlap/ruslanlap/master/stats/growth_shield.json)
 
 <!-- TOTAL_DL_START -->
-**Total downloads across my plugins:** **18 224** 🚀
+**Total downloads across my plugins:** **18 558** 🚀
 
-**Monthly Growth:** +7.6% 📈 | **Weekly Avg:** 282 downloads
+**Monthly Growth:** +8.0% 📈 | **Weekly Avg:** 275 downloads
 
 ### 🏆 Top Performing Plugins
 
 | 🏅 Rank | Plugin | Downloads | Share of Total | Latest Release |
 |---------|--------|-----------|----------------|----------------|
-| 🥇 | 🎥 **[Video Downloader](https://github.com/ruslanlap/PowerToysRun-VideoDownloader)** | 4,845 | 26.6% | v1.0.11 (Sep 05, 2025) |
-| 🥈 | ⚡ **[Speed Test](https://github.com/ruslanlap/PowerToysRun-SpeedTest)** | 4,793 | 26.3% | v1.0.7 (Sep 09, 2025) |
-| 🥉 | 📚 **[Definition](https://github.com/ruslanlap/PowerToysRun-Definition)** | 2,037 | 11.2% | v1.2.2 (Dec 30, 2025) |
-| 4️⃣ | 🍅 **[Pomodoro](https://github.com/ruslanlap/PowerToysRun-Pomodoro)** | 1,543 | 8.5% | v0.90.1 (Apr 28, 2025) |
-| 5️⃣ | 🌤️ **[Weather](https://github.com/ruslanlap/PowerToysRun-Weather)** | 1,501 | 8.2% | v0.90.1 (Apr 28, 2025) |
+| 🥇 | 🎥 **[Video Downloader](https://github.com/ruslanlap/PowerToysRun-VideoDownloader)** | 4,906 | 26.4% | v1.0.11 (Sep 05, 2025) |
+| 🥈 | ⚡ **[Speed Test](https://github.com/ruslanlap/PowerToysRun-SpeedTest)** | 4,849 | 26.1% | v1.0.7 (Sep 09, 2025) |
+| 🥉 | 📚 **[Definition](https://github.com/ruslanlap/PowerToysRun-Definition)** | 2,128 | 11.5% | v1.3.2 (Jan 08, 2026) |
+| 4️⃣ | 🍅 **[Pomodoro](https://github.com/ruslanlap/PowerToysRun-Pomodoro)** | 1,571 | 8.5% | v0.90.1 (Apr 28, 2025) |
+| 5️⃣ | 🌤️ **[Weather](https://github.com/ruslanlap/PowerToysRun-Weather)** | 1,511 | 8.1% | v0.90.1 (Apr 28, 2025) |
 
-*📊 Smart analytics updated weekly via automated workflows • Last updated: Jan 04, 2026*
+*📊 Smart analytics updated weekly via automated workflows • Last updated: Jan 11, 2026*
 
 <details>
 <summary>📈 View Detailed Analytics & Trends</summary>
@@ -49,11 +49,11 @@
 - **Plugin Performance**: Individual plugin download trends
 
 ### 🎯 Key Metrics
-- **Total Downloads**: 18,224 across all plugins
+- **Total Downloads**: 18,558 across all plugins
 - **Active Plugins**: 26 repositories with downloads
-- **Average per Active Plugin**: 701 downloads
-- **Top Performer**: Video Downloader (26.6% of total downloads)
-- **Top 5 Combined**: 14,719 (80.8% of total downloads)
+- **Average per Active Plugin**: 714 downloads
+- **Top Performer**: Video Downloader (26.4% of total downloads)
+- **Top 5 Combined**: 14,965 (80.6% of total downloads)
 
 ### 🔍 Plugin Details
 Click on any plugin name to view its repository and release notes:
