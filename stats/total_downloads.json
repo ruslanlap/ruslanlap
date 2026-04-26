@@ -2,19 +2,19 @@
   "owner": "ruslanlap",
   "filter": ".*",
   "include_prereleases": true,
-  "generated_at": "2026-04-19T06:52:44Z",
-  "grand_total": 21375,
-  "grand_total_human": "21 375",
+  "generated_at": "2026-04-26T06:58:54Z",
+  "grand_total": 21624,
+  "grand_total_human": "21 624",
   "growth": {
-    "monthly_growth": "+3.4%",
-    "weekly_avg": "135",
-    "growth_pct": 3.36073500967118
+    "monthly_growth": "+4.4%",
+    "weekly_avg": "146",
+    "growth_pct": 4.408285452175172
   },
   "repos": [
     {
       "repo": "PowerToysRun-VideoDownloader",
       "html_url": "https://github.com/ruslanlap/PowerToysRun-VideoDownloader",
-      "downloads": 5452,
+      "downloads": 5495,
       "releases": [
         {
           "tag": "v1.1.12",
@@ -30,7 +30,7 @@
             },
             {
               "name": "VideoDownloader-1.1.12-ARM64.zip",
-              "download_count": 14,
+              "download_count": 16,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-VideoDownloader/releases/download/v1.1.12/VideoDownloader-1.1.12-ARM64.zip"
             },
             {
@@ -40,7 +40,7 @@
             },
             {
               "name": "VideoDownloader-1.1.12-x64.zip",
-              "download_count": 65,
+              "download_count": 73,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-VideoDownloader/releases/download/v1.1.12/VideoDownloader-1.1.12-x64.zip"
             },
             {
@@ -49,7 +49,7 @@
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-VideoDownloader/releases/download/v1.1.12/VideoDownloader-1.1.12-x64.zip.sha256"
             }
           ],
-          "release_total": 92
+          "release_total": 102
         },
         {
           "tag": "v1.0.12",
@@ -65,7 +65,7 @@
             },
             {
               "name": "VideoDownloader-1.0.12-ARM64.zip",
-              "download_count": 31,
+              "download_count": 35,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-VideoDownloader/releases/download/v1.0.12/VideoDownloader-1.0.12-ARM64.zip"
             },
             {
@@ -75,16 +75,16 @@
             },
             {
               "name": "VideoDownloader-1.0.12-x64.zip",
-              "download_count": 339,
+              "download_count": 365,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-VideoDownloader/releases/download/v1.0.12/VideoDownloader-1.0.12-x64.zip"
             },
             {
               "name": "VideoDownloader-1.0.12-x64.zip.sha256",
-              "download_count": 3,
+              "download_count": 4,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-VideoDownloader/releases/download/v1.0.12/VideoDownloader-1.0.12-x64.zip.sha256"
             }
           ],
-          "release_total": 379
+          "release_total": 410
         },
         {
           "tag": "v1.0.11",
@@ -165,7 +165,7 @@
           "assets": [
             {
               "name": "checksums.txt",
-              "download_count": 1,
+              "download_count": 2,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-VideoDownloader/releases/download/v1.0.9/checksums.txt"
             },
             {
@@ -189,7 +189,7 @@
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-VideoDownloader/releases/download/v1.0.9/VideoDownloader-1.0.9-x64.zip.sha256"
             }
           ],
-          "release_total": 241
+          "release_total": 242
         },
         {
           "tag": "v1.0.8",
@@ -295,7 +295,7 @@
           "assets": [
             {
               "name": "VideoDownloader-latest-arm64.zip",
-              "download_count": 0,
+              "download_count": 1,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-VideoDownloader/releases/download/latest/VideoDownloader-latest-arm64.zip"
             },
             {
@@ -304,7 +304,7 @@
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-VideoDownloader/releases/download/latest/VideoDownloader-latest-x64.zip"
             }
           ],
-          "release_total": 1
+          "release_total": 2
         },
         {
           "tag": "v1.0.4",
@@ -320,7 +320,7 @@
     {
       "repo": "PowerToysRun-SpeedTest",
       "html_url": "https://github.com/ruslanlap/PowerToysRun-SpeedTest",
-      "downloads": 5342,
+      "downloads": 5377,
       "releases": [
         {
           "tag": "v1.0.7",
@@ -336,7 +336,7 @@
             },
             {
               "name": "SpeedTest-1.0.7-ARM64.zip",
-              "download_count": 100,
+              "download_count": 104,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-SpeedTest/releases/download/v1.0.7/SpeedTest-1.0.7-ARM64.zip"
             },
             {
@@ -346,7 +346,7 @@
             },
             {
               "name": "SpeedTest-1.0.7-x64.zip",
-              "download_count": 1896,
+              "download_count": 1927,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-SpeedTest/releases/download/v1.0.7/SpeedTest-1.0.7-x64.zip"
             },
             {
@@ -355,7 +355,7 @@
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-SpeedTest/releases/download/v1.0.7/SpeedTest-1.0.7-x64.zip.sha256"
             }
           ],
-          "release_total": 2013
+          "release_total": 2048
         },
         {
           "tag": "v1.0.6",
@@ -572,7 +572,7 @@
     {
       "repo": "PowerToysRun-Definition",
       "html_url": "https://github.com/ruslanlap/PowerToysRun-Definition",
-      "downloads": 2493,
+      "downloads": 2524,
       "releases": [
         {
           "tag": "v1.4.0",
@@ -588,7 +588,7 @@
             },
             {
               "name": "Definition-1.4.0-ARM64.zip",
-              "download_count": 7,
+              "download_count": 10,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Definition/releases/download/v1.4.0/Definition-1.4.0-ARM64.zip"
             },
             {
@@ -598,7 +598,7 @@
             },
             {
               "name": "Definition-1.4.0-x64.zip",
-              "download_count": 94,
+              "download_count": 121,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Definition/releases/download/v1.4.0/Definition-1.4.0-x64.zip"
             },
             {
@@ -607,7 +607,7 @@
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Definition/releases/download/v1.4.0/Definition-1.4.0-x64.zip.sha256"
             }
           ],
-          "release_total": 101
+          "release_total": 131
         },
         {
           "tag": "v1.3.3",
@@ -768,7 +768,7 @@
             },
             {
               "name": "Definition-1.2.2-ARM64.zip",
-              "download_count": 5,
+              "download_count": 6,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Definition/releases/download/v1.2.2/Definition-1.2.2-ARM64.zip"
             },
             {
@@ -787,7 +787,7 @@
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Definition/releases/download/v1.2.2/Definition-1.2.2-x64.zip.sha256"
             }
           ],
-          "release_total": 52
+          "release_total": 53
         },
         {
           "tag": "v1.1.1",
@@ -989,7 +989,7 @@
     {
       "repo": "PowerToysRun-Pomodoro",
       "html_url": "https://github.com/ruslanlap/PowerToysRun-Pomodoro",
-      "downloads": 1788,
+      "downloads": 1801,
       "releases": [
         {
           "tag": "v0.90.1",
@@ -1010,7 +1010,7 @@
             },
             {
               "name": "Pomodoro-0.90.1-x64.zip",
-              "download_count": 531,
+              "download_count": 535,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Pomodoro/releases/download/v0.90.1/Pomodoro-0.90.1-x64.zip"
             },
             {
@@ -1030,11 +1030,11 @@
             },
             {
               "name": "Pomodoro-x64.zip",
-              "download_count": 134,
+              "download_count": 136,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Pomodoro/releases/download/v0.90.1/Pomodoro-x64.zip"
             }
           ],
-          "release_total": 717
+          "release_total": 723
         },
         {
           "tag": "v1.0.0",
@@ -1045,23 +1045,23 @@
           "assets": [
             {
               "name": "Pomodoro-ARM64.zip",
-              "download_count": 29,
+              "download_count": 30,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Pomodoro/releases/download/v1.0.0/Pomodoro-ARM64.zip"
             },
             {
               "name": "Pomodoro-x64.zip",
-              "download_count": 1042,
+              "download_count": 1048,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Pomodoro/releases/download/v1.0.0/Pomodoro-x64.zip"
             }
           ],
-          "release_total": 1071
+          "release_total": 1078
         }
       ]
     },
     {
       "repo": "PowerToysRun-Weather",
       "html_url": "https://github.com/ruslanlap/PowerToysRun-Weather",
-      "downloads": 1724,
+      "downloads": 1742,
       "releases": [
         {
           "tag": "v0.90.1",
@@ -1077,26 +1077,26 @@
             },
             {
               "name": "Weather-0.90.1-ARM64.zip",
-              "download_count": 20,
+              "download_count": 22,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Weather/releases/download/v0.90.1/Weather-0.90.1-ARM64.zip"
             },
             {
               "name": "Weather-0.90.1-x64.zip",
-              "download_count": 514,
+              "download_count": 524,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Weather/releases/download/v0.90.1/Weather-0.90.1-x64.zip"
             },
             {
               "name": "Weather-ARM64.zip",
-              "download_count": 8,
+              "download_count": 9,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Weather/releases/download/v0.90.1/Weather-ARM64.zip"
             },
             {
               "name": "Weather-x64.zip",
-              "download_count": 222,
+              "download_count": 225,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Weather/releases/download/v0.90.1/Weather-x64.zip"
             }
           ],
-          "release_total": 772
+          "release_total": 788
         },
         {
           "tag": "v1.0.1",
@@ -1112,11 +1112,11 @@
             },
             {
               "name": "Weather-x64.zip",
-              "download_count": 920,
+              "download_count": 922,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Weather/releases/download/v1.0.1/Weather-x64.zip"
             }
           ],
-          "release_total": 943
+          "release_total": 945
         },
         {
           "tag": "v1.0.0",
@@ -1153,7 +1153,7 @@
     {
       "repo": "CommunityPowerToysRunPlugin-QuickNotes",
       "html_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes",
-      "downloads": 1386,
+      "downloads": 1416,
       "releases": [
         {
           "tag": "v1.0.12",
@@ -1164,7 +1164,7 @@
           "assets": [
             {
               "name": "QuickNotes-1.0.12-arm64.zip",
-              "download_count": 8,
+              "download_count": 12,
               "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.12/QuickNotes-1.0.12-arm64.zip"
             },
             {
@@ -1174,7 +1174,7 @@
             },
             {
               "name": "QuickNotes-1.0.12-x64.zip",
-              "download_count": 125,
+              "download_count": 149,
               "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.12/QuickNotes-1.0.12-x64.zip"
             },
             {
@@ -1183,7 +1183,7 @@
               "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.12/QuickNotes-1.0.12-x64.zip.sha256"
             }
           ],
-          "release_total": 134
+          "release_total": 162
         },
         {
           "tag": "v1.0.11",
@@ -1424,11 +1424,11 @@
             },
             {
               "name": "QuickNotes-v1.0.4-x64.zip",
-              "download_count": 184,
+              "download_count": 186,
               "browser_download_url": "https://github.com/ruslanlap/CommunityPowerToysRunPlugin-QuickNotes/releases/download/v1.0.4/QuickNotes-v1.0.4-x64.zip"
             }
           ],
-          "release_total": 189
+          "release_total": 191
         },
         {
           "tag": "v1.0.3",
@@ -1535,7 +1535,7 @@
     {
       "repo": "PowerToysRun-Hotkeys",
       "html_url": "https://github.com/ruslanlap/PowerToysRun-Hotkeys",
-      "downloads": 977,
+      "downloads": 991,
       "releases": [
         {
           "tag": "v1.1.1",
@@ -1551,7 +1551,7 @@
             },
             {
               "name": "Hotkeys-1.1.1-arm64.zip",
-              "download_count": 5,
+              "download_count": 8,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Hotkeys/releases/download/v1.1.1/Hotkeys-1.1.1-arm64.zip"
             },
             {
@@ -1561,7 +1561,7 @@
             },
             {
               "name": "Hotkeys-1.1.1-x64.zip",
-              "download_count": 194,
+              "download_count": 205,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Hotkeys/releases/download/v1.1.1/Hotkeys-1.1.1-x64.zip"
             },
             {
@@ -1570,7 +1570,7 @@
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Hotkeys/releases/download/v1.1.1/Hotkeys-1.1.1-x64.zip.sha256"
             }
           ],
-          "release_total": 206
+          "release_total": 220
         },
         {
           "tag": "v1.1.0",
@@ -1667,7 +1667,7 @@
     {
       "repo": "PowerToysRun-RandomGen",
       "html_url": "https://github.com/ruslanlap/PowerToysRun-RandomGen",
-      "downloads": 907,
+      "downloads": 917,
       "releases": [
         {
           "tag": "v1.0.3",
@@ -1693,7 +1693,7 @@
             },
             {
               "name": "RandomGen-1.0.2-x64.zip",
-              "download_count": 670,
+              "download_count": 675,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-RandomGen/releases/download/v1.0.3/RandomGen-1.0.2-x64.zip"
             },
             {
@@ -1713,7 +1713,7 @@
             },
             {
               "name": "RandomGen-1.0.3-x64.zip",
-              "download_count": 148,
+              "download_count": 153,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-RandomGen/releases/download/v1.0.3/RandomGen-1.0.3-x64.zip"
             },
             {
@@ -1722,7 +1722,7 @@
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-RandomGen/releases/download/v1.0.3/RandomGen-1.0.3-x64.zip.sha256"
             }
           ],
-          "release_total": 866
+          "release_total": 876
         },
         {
           "tag": "v1.0.1",
@@ -1804,7 +1804,7 @@
     {
       "repo": "PowerToysRun-CheatSheets",
       "html_url": "https://github.com/ruslanlap/PowerToysRun-CheatSheets",
-      "downloads": 640,
+      "downloads": 653,
       "releases": [
         {
           "tag": "v1.0.0",
@@ -1825,7 +1825,7 @@
             },
             {
               "name": "CheatSheets-1.0.0-x64.zip",
-              "download_count": 579,
+              "download_count": 592,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-CheatSheets/releases/download/v1.0.0/CheatSheets-1.0.0-x64.zip"
             },
             {
@@ -1839,14 +1839,14 @@
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-CheatSheets/releases/download/v1.0.0/checksums.txt"
             }
           ],
-          "release_total": 640
+          "release_total": 653
         }
       ]
     },
     {
       "repo": "PowerToysRun-QuickAi",
       "html_url": "https://github.com/ruslanlap/PowerToysRun-QuickAi",
-      "downloads": 307,
+      "downloads": 342,
       "releases": [
         {
           "tag": "v1.2.1",
@@ -1862,17 +1862,17 @@
             },
             {
               "name": "QuickAi-1.2.1-ARM64.zip",
-              "download_count": 7,
+              "download_count": 13,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-QuickAi/releases/download/v1.2.1/QuickAi-1.2.1-ARM64.zip"
             },
             {
               "name": "QuickAi-1.2.1-ARM64.zip.sha256",
-              "download_count": 2,
+              "download_count": 3,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-QuickAi/releases/download/v1.2.1/QuickAi-1.2.1-ARM64.zip.sha256"
             },
             {
               "name": "QuickAi-1.2.1-x64.zip",
-              "download_count": 130,
+              "download_count": 155,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-QuickAi/releases/download/v1.2.1/QuickAi-1.2.1-x64.zip"
             },
             {
@@ -1881,7 +1881,7 @@
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-QuickAi/releases/download/v1.2.1/QuickAi-1.2.1-x64.zip.sha256"
             }
           ],
-          "release_total": 141
+          "release_total": 173
         },
         {
           "tag": "v1.2.0",
@@ -1897,7 +1897,7 @@
             },
             {
               "name": "QuickAi-1.2.0-ARM64.zip",
-              "download_count": 3,
+              "download_count": 4,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-QuickAi/releases/download/v1.2.0/QuickAi-1.2.0-ARM64.zip"
             },
             {
@@ -1916,7 +1916,7 @@
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-QuickAi/releases/download/v1.2.0/QuickAi-1.2.0-x64.zip.sha256"
             }
           ],
-          "release_total": 14
+          "release_total": 15
         },
         {
           "tag": "v1.1.1",
@@ -2012,7 +2012,7 @@
             },
             {
               "name": "QuickAi-1.1.1-dev-pre-x64.zip",
-              "download_count": 6,
+              "download_count": 7,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-QuickAi/releases/download/v1.1.1-dev-pre/QuickAi-1.1.1-dev-pre-x64.zip"
             },
             {
@@ -2021,7 +2021,7 @@
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-QuickAi/releases/download/v1.1.1-dev-pre/QuickAi-1.1.1-dev-pre-x64.zip.sha256"
             }
           ],
-          "release_total": 15
+          "release_total": 16
         },
         {
           "tag": "v1.0.1",
@@ -2037,7 +2037,7 @@
             },
             {
               "name": "QuickAi-1.0.1-ARM64.zip",
-              "download_count": 3,
+              "download_count": 4,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-QuickAi/releases/download/v1.0.1/QuickAi-1.0.1-ARM64.zip"
             },
             {
@@ -2056,7 +2056,7 @@
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-QuickAi/releases/download/v1.0.1/QuickAi-1.0.1-x64.zip.sha256"
             }
           ],
-          "release_total": 14
+          "release_total": 15
         },
         {
           "tag": "v1.1.0",
@@ -2133,7 +2133,7 @@
     {
       "repo": "PowerToysRun-Magic8Ball",
       "html_url": "https://github.com/ruslanlap/PowerToysRun-Magic8Ball",
-      "downloads": 76,
+      "downloads": 77,
       "releases": [
         {
           "tag": "v1.0.2",
@@ -2149,11 +2149,11 @@
             },
             {
               "name": "Magic8Ball-x64.zip",
-              "download_count": 63,
+              "download_count": 64,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Magic8Ball/releases/download/v1.0.2/Magic8Ball-x64.zip"
             }
           ],
-          "release_total": 63
+          "release_total": 64
         },
         {
           "tag": "v1.0.1",
@@ -2275,73 +2275,9 @@
       ]
     },
     {
-      "repo": "encrypt-decrypt-git-python",
-      "html_url": "https://github.com/ruslanlap/encrypt-decrypt-git-python",
-      "downloads": 28,
-      "releases": [
-        {
-          "tag": "v1.0.1",
-          "name": "Release v1.0.1",
-          "draft": false,
-          "prerelease": false,
-          "published_at": "2024-07-19T16:04:51Z",
-          "assets": [
-            {
-              "name": "cryptonit",
-              "download_count": 28,
-              "browser_download_url": "https://github.com/ruslanlap/encrypt-decrypt-git-python/releases/download/v1.0.1/cryptonit"
-            }
-          ],
-          "release_total": 28
-        }
-      ]
-    },
-    {
-      "repo": "PowerToysRun-StackOverflow",
-      "html_url": "https://github.com/ruslanlap/PowerToysRun-StackOverflow",
-      "downloads": 28,
-      "releases": [
-        {
-          "tag": "v1.0.0",
-          "name": "PowerToysRun-StackOverflow v1.0.0",
-          "draft": false,
-          "prerelease": false,
-          "published_at": "2025-10-03T16:25:38Z",
-          "assets": [
-            {
-              "name": "checksums.txt",
-              "download_count": 3,
-              "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-StackOverflow/releases/download/v1.0.0/checksums.txt"
-            },
-            {
-              "name": "StackOverflow-1.0.0-ARM64.zip",
-              "download_count": 9,
-              "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-StackOverflow/releases/download/v1.0.0/StackOverflow-1.0.0-ARM64.zip"
-            },
-            {
-              "name": "StackOverflow-1.0.0-ARM64.zip.sha256",
-              "download_count": 0,
-              "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-StackOverflow/releases/download/v1.0.0/StackOverflow-1.0.0-ARM64.zip.sha256"
-            },
-            {
-              "name": "StackOverflow-1.0.0-x64.zip",
-              "download_count": 16,
-              "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-StackOverflow/releases/download/v1.0.0/StackOverflow-1.0.0-x64.zip"
-            },
-            {
-              "name": "StackOverflow-1.0.0-x64.zip.sha256",
-              "download_count": 0,
-              "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-StackOverflow/releases/download/v1.0.0/StackOverflow-1.0.0-x64.zip.sha256"
-            }
-          ],
-          "release_total": 28
-        }
-      ]
-    },
-    {
       "repo": "PowerToysRun-Radio",
       "html_url": "https://github.com/ruslanlap/PowerToysRun-Radio",
-      "downloads": 27,
+      "downloads": 29,
       "releases": [
         {
           "tag": "v1.1.0",
@@ -2367,7 +2303,7 @@
             },
             {
               "name": "Radio-1.1.0-x64.zip",
-              "download_count": 12,
+              "download_count": 13,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Radio/releases/download/v1.1.0/Radio-1.1.0-x64.zip"
             },
             {
@@ -2376,7 +2312,7 @@
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Radio/releases/download/v1.1.0/Radio-1.1.0-x64.zip.sha256"
             }
           ],
-          "release_total": 21
+          "release_total": 22
         },
         {
           "tag": "v1.0.0",
@@ -2402,7 +2338,7 @@
             },
             {
               "name": "Radio-1.0.0-x64.zip",
-              "download_count": 2,
+              "download_count": 3,
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Radio/releases/download/v1.0.0/Radio-1.0.0-x64.zip"
             },
             {
@@ -2411,14 +2347,78 @@
               "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-Radio/releases/download/v1.0.0/Radio-1.0.0-x64.zip.sha256"
             }
           ],
-          "release_total": 6
+          "release_total": 7
+        }
+      ]
+    },
+    {
+      "repo": "PowerToysRun-StackOverflow",
+      "html_url": "https://github.com/ruslanlap/PowerToysRun-StackOverflow",
+      "downloads": 29,
+      "releases": [
+        {
+          "tag": "v1.0.0",
+          "name": "PowerToysRun-StackOverflow v1.0.0",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2025-10-03T16:25:38Z",
+          "assets": [
+            {
+              "name": "checksums.txt",
+              "download_count": 3,
+              "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-StackOverflow/releases/download/v1.0.0/checksums.txt"
+            },
+            {
+              "name": "StackOverflow-1.0.0-ARM64.zip",
+              "download_count": 9,
+              "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-StackOverflow/releases/download/v1.0.0/StackOverflow-1.0.0-ARM64.zip"
+            },
+            {
+              "name": "StackOverflow-1.0.0-ARM64.zip.sha256",
+              "download_count": 0,
+              "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-StackOverflow/releases/download/v1.0.0/StackOverflow-1.0.0-ARM64.zip.sha256"
+            },
+            {
+              "name": "StackOverflow-1.0.0-x64.zip",
+              "download_count": 17,
+              "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-StackOverflow/releases/download/v1.0.0/StackOverflow-1.0.0-x64.zip"
+            },
+            {
+              "name": "StackOverflow-1.0.0-x64.zip.sha256",
+              "download_count": 0,
+              "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-StackOverflow/releases/download/v1.0.0/StackOverflow-1.0.0-x64.zip.sha256"
+            }
+          ],
+          "release_total": 29
+        }
+      ]
+    },
+    {
+      "repo": "encrypt-decrypt-git-python",
+      "html_url": "https://github.com/ruslanlap/encrypt-decrypt-git-python",
+      "downloads": 28,
+      "releases": [
+        {
+          "tag": "v1.0.1",
+          "name": "Release v1.0.1",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2024-07-19T16:04:51Z",
+          "assets": [
+            {
+              "name": "cryptonit",
+              "download_count": 28,
+              "browser_download_url": "https://github.com/ruslanlap/encrypt-decrypt-git-python/releases/download/v1.0.1/cryptonit"
+            }
+          ],
+          "release_total": 28
         }
       ]
     },
     {
       "repo": "Telegram-SavedMessages-Export",
       "html_url": "https://github.com/ruslanlap/Telegram-SavedMessages-Export",
-      "downloads": 27,
+      "downloads": 28,
       "releases": [
         {
           "tag": "v1.0.0",
@@ -2434,7 +2434,7 @@
             },
             {
               "name": "TelegramNotionExporter-macOS.tar.gz",
-              "download_count": 9,
+              "download_count": 10,
               "browser_download_url": "https://github.com/ruslanlap/Telegram-SavedMessages-Export/releases/download/v1.0.0/TelegramNotionExporter-macOS.tar.gz"
             },
             {
@@ -2443,7 +2443,49 @@
               "browser_download_url": "https://github.com/ruslanlap/Telegram-SavedMessages-Export/releases/download/v1.0.0/TelegramNotionExporter-Windows.zip"
             }
           ],
-          "release_total": 27
+          "release_total": 28
+        }
+      ]
+    },
+    {
+      "repo": "PowerToysRun-AIPromptGenerator",
+      "html_url": "https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator",
+      "downloads": 19,
+      "releases": [
+        {
+          "tag": "v1.0.0",
+          "name": "AI Prompt Generator v1.0.0",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2025-11-12T17:32:24Z",
+          "assets": [
+            {
+              "name": "AIPromptGenerator-1.0.0-ARM64.zip",
+              "download_count": 4,
+              "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/download/v1.0.0/AIPromptGenerator-1.0.0-ARM64.zip"
+            },
+            {
+              "name": "AIPromptGenerator-1.0.0-ARM64.zip.sha256",
+              "download_count": 1,
+              "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/download/v1.0.0/AIPromptGenerator-1.0.0-ARM64.zip.sha256"
+            },
+            {
+              "name": "AIPromptGenerator-1.0.0-x64.zip",
+              "download_count": 11,
+              "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/download/v1.0.0/AIPromptGenerator-1.0.0-x64.zip"
+            },
+            {
+              "name": "AIPromptGenerator-1.0.0-x64.zip.sha256",
+              "download_count": 1,
+              "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/download/v1.0.0/AIPromptGenerator-1.0.0-x64.zip.sha256"
+            },
+            {
+              "name": "checksums.txt",
+              "download_count": 2,
+              "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/download/v1.0.0/checksums.txt"
+            }
+          ],
+          "release_total": 19
         }
       ]
     },
@@ -2532,51 +2574,9 @@
       ]
     },
     {
-      "repo": "PowerToysRun-AIPromptGenerator",
-      "html_url": "https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator",
-      "downloads": 18,
-      "releases": [
-        {
-          "tag": "v1.0.0",
-          "name": "AI Prompt Generator v1.0.0",
-          "draft": false,
-          "prerelease": false,
-          "published_at": "2025-11-12T17:32:24Z",
-          "assets": [
-            {
-              "name": "AIPromptGenerator-1.0.0-ARM64.zip",
-              "download_count": 3,
-              "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/download/v1.0.0/AIPromptGenerator-1.0.0-ARM64.zip"
-            },
-            {
-              "name": "AIPromptGenerator-1.0.0-ARM64.zip.sha256",
-              "download_count": 1,
-              "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/download/v1.0.0/AIPromptGenerator-1.0.0-ARM64.zip.sha256"
-            },
-            {
-              "name": "AIPromptGenerator-1.0.0-x64.zip",
-              "download_count": 11,
-              "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/download/v1.0.0/AIPromptGenerator-1.0.0-x64.zip"
-            },
-            {
-              "name": "AIPromptGenerator-1.0.0-x64.zip.sha256",
-              "download_count": 1,
-              "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/download/v1.0.0/AIPromptGenerator-1.0.0-x64.zip.sha256"
-            },
-            {
-              "name": "checksums.txt",
-              "download_count": 2,
-              "browser_download_url": "https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/download/v1.0.0/checksums.txt"
-            }
-          ],
-          "release_total": 18
-        }
-      ]
-    },
-    {
       "repo": "GitLeaks-Guard-CLI",
       "html_url": "https://github.com/ruslanlap/GitLeaks-Guard-CLI",
-      "downloads": 13,
+      "downloads": 14,
       "releases": [
         {
           "tag": "v0.0.1",
@@ -2607,7 +2607,7 @@
             },
             {
               "name": "gitleaks-guard-windows-arm64.exe",
-              "download_count": 2,
+              "download_count": 3,
               "browser_download_url": "https://github.com/ruslanlap/GitLeaks-Guard-CLI/releases/download/v0.0.1/gitleaks-guard-windows-arm64.exe"
             },
             {
@@ -2616,7 +2616,7 @@
               "browser_download_url": "https://github.com/ruslanlap/GitLeaks-Guard-CLI/releases/download/v0.0.1/gitleaks-guard-windows-x64.exe"
             }
           ],
-          "release_total": 13
+          "release_total": 14
         }
       ]
     },
