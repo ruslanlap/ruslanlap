@@ -129,8 +129,8 @@ const ruslan = {
 
 ## 📊 GitHub Stats
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=ruslanlap&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ruslanlap&layout=compact&theme=radical)
+![GitHub stats](https://github-stats-extended.vercel.app/api?username=ruslanlap&show_icons=true&theme=radical&rank_icon=default)
+![Top Languages](https://github-stats-extended.vercel.app/api/top-langs/?username=ruslanlap&layout=compact&theme=radical)
 
 ---
 
