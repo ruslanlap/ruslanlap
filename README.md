@@ -70,6 +70,8 @@ Click on any plugin name to view its repository and release notes:
 
 ## 👨‍💻 About Me
 
+- 🔭 I'm building **[loopguard](https://github.com/ruslanlap/loopguard)** — a zero-dependency watchdog that tails AI coding-agent session transcripts (Claude Code, Codex CLI, Gemini CLI) and alerts you when the agent loops, oscillates, or stalls. [v1.0.0 is out](https://github.com/ruslanlap/loopguard/releases/tag/v1.0.0).
+
 ```javascript
 const ruslan = {
     role: "Full Stack Developer & DevOps Engineer",
